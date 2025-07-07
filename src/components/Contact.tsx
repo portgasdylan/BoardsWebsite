@@ -48,8 +48,7 @@ const Contact: React.FC = () => {
               <div className="transform -skew-y-2">
                 <h3 className="text-2xl font-bold mb-6">Let's Connect!</h3>
                 <p className="text-gray-300 mb-6">
-                  Ready to discuss a project, share manga recommendations, or just chat about code? 
-                  I'd love to hear from you!
+                  Looking to connect about job opportunities, internships, or collaborative projects? I'm all ears!
                 </p>
                 
                 <div className="space-y-4">
