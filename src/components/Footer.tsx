@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
             <Heart className="w-4 h-4 text-red-500" />
             <span>and lots of</span>
             <Code className="w-4 h-4 text-red-500" />
-            <span>by a manga enthusiast</span>
+            <span></span>
           </div>
         </AnimatedSection>
 
