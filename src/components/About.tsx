@@ -28,11 +28,7 @@ const About: React.FC = () => {
               <div className="transform skew-y-1">
                 <h3 className="text-2xl font-bold text-black mb-6">My Story</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  I'm a passionate Computer Science student who found the perfect intersection 
-                  between logical problem-solving and creative storytelling through manga. 
-                  My journey began with late-night coding sessions and weekend manga marathons, 
-                  eventually realizing that both worlds share the same core: compelling narratives 
-                  and attention to detail.
+                  Hey! I'm Dylan Maxwell, a passionate Computer Science student with a love for building, designing, and exploring new ideas. I'm always looking for the next oppurtunity to learn, grow, and create something meaningful.
                 </p>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   From debugging complex algorithms to analyzing character development arcs, 
