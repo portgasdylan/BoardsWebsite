@@ -55,8 +55,8 @@ const About: React.FC = () => {
             <div className="bg-red-600 text-white p-6 transform -skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform skew-y-2">
                 <Laptop className="w-8 h-8 mb-4" />
-                <h4 className="text-xl font-bold mb-2">Manga Reader</h4>
-                <p className="text-sm">Analyzing storytelling techniques and visual narratives</p>
+                <h4 className="text-xl font-bold mb-2">Computer Science Student</h4>
+                <p className="text-sm">Learning core principles, writing clean code, and building real-world projects</p>
               </div>
             </div>
 
