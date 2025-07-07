@@ -75,10 +75,10 @@ const Contact: React.FC = () => {
               <div className="transform skew-y-2">
                 <h4 className="text-xl font-bold mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
+                  <a href="https://github.com/portgasdylan" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
                     <Github className="w-6 h-6" />
                   </a>
-                  <a href="#" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
+                  <a href="https://www.linkedin.com/in/dylan-maxwell-86a798254/" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a href="#" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
