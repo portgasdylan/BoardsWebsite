@@ -65,7 +65,7 @@ const About: React.FC = () => {
               <div className="transform -skew-y-2">
                 <Palette className="w-8 h-8 mb-4 text-red-600" />
                 <h4 className="text-xl font-bold mb-2">Designer</h4>
-                <p className="text-sm">Creating intuitive and visually appealing interfaces</p>
+                <p className="text-sm">Crafting clean, functional interfaces through UX-focused thinking and visual creativity</p>
               </div>
             </div>
 
