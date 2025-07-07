@@ -31,15 +31,10 @@ const About: React.FC = () => {
                   Hey! I'm Dylan Maxwell, a passionate Computer Science student with a love for building, designing, and exploring new ideas. I'm always looking for the next oppurtunity to learn, grow, and create something meaningful.
                 </p>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  From debugging complex algorithms to analyzing character development arcs, 
-                  I approach every challenge with the same methodical yet creative mindset. 
-                  This unique perspective allows me to build applications that are not only 
-                  functional but also engaging and user-friendly.
+                  When I'm not coding you can usually find me gaming, experimenting with graphic design and photomanipulation, or diving into anime and manga for inspiration. I enjoy hands-on projects and constantly challenge myself to push creative and technical boundaries.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  When I'm not coding, you'll find me exploring the latest manga releases, 
-                  sketching UI wireframes, or combining both passions to create digital 
-                  experiences that tell meaningful stories through technology.
+                  So far, I've explored technologies like Python, C++, SQL, React Native, HTML, CSS, and even Unreal Engine--each one adding a new layer to how I approach problem-solving and development. Whether I'm working solo or collaborating with a team, I bring curiosity, creativity, and drive to everything I do.
                 </p>
               </div>
             </div>
