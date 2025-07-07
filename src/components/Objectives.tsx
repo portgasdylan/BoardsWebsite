@@ -13,14 +13,14 @@ const Objectives: React.FC = () => {
         {
           name: "CoPay App",
           description: "Documented and analyzed the app's purpose, competitors, and features as part of my SIP.",
-          tech: ["React", "TypeScript"],
+          tech: ["React", "TypeScript", "JavaScript"],
           type: "Mobile Application"
         },
         {
-          name: "E-commerce Platform",
-          description: "Comprehensive project documentation covering agile methodology, sprint planning, code reviews, and continuous integration practices.",
-          tech: ["Vue.js", "Express", "PostgreSQL", "Docker"],
-          type: "Full-Stack Project"
+          name: "Maze Generator
+          description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
+          tech: ["C++"],
+          type: "Program"
         }
       ]
     },
