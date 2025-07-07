@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
               <div className="bg-black text-white p-6 transform skew-y-2 border-4 border-black shadow-2xl">
                 <div className="transform -skew-y-2">
                   <div className="w-8 h-8 bg-white transform rotate-45 mb-4"></div>
-                  <h3 className="text-xl font-bold mb-2">CS Major</h3>
+                  <h3 className="text-xl font-bold mb-2">Computer Science</h3>
                   <p className="text-sm">Student</p>
                 </div>
               </div>
