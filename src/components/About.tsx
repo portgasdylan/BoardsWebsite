@@ -63,7 +63,7 @@ const About: React.FC = () => {
             {/* Panel 3 */}
             <div className="bg-white text-black p-6 transform skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform -skew-y-2">
-                <laptop-minimal className="w-8 h-8 mb-4 text-red-600" />
+                <Palette className="w-8 h-8 mb-4 text-red-600" />
                 <h4 className="text-xl font-bold mb-2">Designer</h4>
                 <p className="text-sm">Creating intuitive and visually appealing interfaces</p>
               </div>
