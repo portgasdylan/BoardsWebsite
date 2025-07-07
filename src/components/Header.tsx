@@ -12,7 +12,7 @@ const Header: React.FC = () => {
             <div className="w-8 h-8 bg-red-600 transform rotate-45 flex items-center justify-center">
               <Code className="w-4 h-4 text-white transform -rotate-45" />
             </div>
-            <span className="text-white font-bold text-xl">CS.MANGA</span>
+            <span className="text-white font-bold text-xl">Dylan Maxwell</span>
           </div>
 
           <nav className="hidden md:flex space-x-8">
