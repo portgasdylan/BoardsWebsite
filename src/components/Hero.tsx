@@ -25,9 +25,9 @@ const Hero: React.FC = () => {
             <div className="bg-white/90 backdrop-blur-sm p-8 transform -skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform skew-y-2">
                 <h1 className="text-4xl md:text-6xl font-bold text-black mb-4">
-                  <span className="block">CODE</span>
-                  <span className="block text-red-600">MEETS</span>
-                  <span className="block">MANGA</span>
+                  <span className="block">Dylan</span>
+                  <span className="block text-red-600">J</span>
+                  <span className="block">Maxwell</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-800 mb-6">
                   Hello! I'm a computer science major with a passion for coding and creating. 
