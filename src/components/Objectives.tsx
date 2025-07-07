@@ -1,0 +1,267 @@
+import React from 'react';
+import { Code, Database, Smartphone, Globe, Layers, BarChart3, Github, ExternalLink } from 'lucide-react';
+import AnimatedSection from './AnimatedSection';
+
+const Objectives: React.FC = () => {
+  const objectives = [
+    {
+      id: 1,
+      title: "Document a software development process to analyze a problem and to design, build and test software solutions.",
+      icon: <Code className="w-8 h-8" />,
+      color: "bg-red-600",
+      projects: [
+        {
+          name: "Task Management System",
+          description: "Full SDLC documentation from requirements gathering to deployment, including UML diagrams, testing strategies, and user acceptance criteria.",
+          tech: ["React", "Node.js", "MongoDB", "Jest"],
+          type: "Web Application"
+        },
+        {
+          name: "E-commerce Platform",
+          description: "Comprehensive project documentation covering agile methodology, sprint planning, code reviews, and continuous integration practices.",
+          tech: ["Vue.js", "Express", "PostgreSQL", "Docker"],
+          type: "Full-Stack Project"
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: "Demonstrate software development skills using more than one programming language and development environment.",
+      icon: <Layers className="w-8 h-8" />,
+      color: "bg-black",
+      projects: [
+        {
+          name: "Multi-Language Calculator",
+          description: "Scientific calculator implemented in Python (backend), JavaScript (frontend), and Java (desktop version) with shared API.",
+          tech: ["Python", "JavaScript", "Java", "Flask", "Swing"],
+          type: "Multi-Platform"
+        },
+        {
+          name: "Cross-Platform Chat App",
+          description: "Real-time messaging application with React Native mobile app, React web client, and Node.js server.",
+          tech: ["React Native", "React", "Node.js", "Socket.io"],
+          type: "Cross-Platform"
+        },
+        {
+          name: "Game Development Suite",
+          description: "2D game engine built in C++ with Python scripting support and Unity integration for rapid prototyping.",
+          tech: ["C++", "Python", "Unity", "OpenGL"],
+          type: "Game Engine"
+        }
+      ]
+    },
+    {
+      id: 3,
+      title: "Implement data-driven solutions.",
+      icon: <Database className="w-8 h-8" />,
+      color: "bg-red-600",
+      projects: [
+        {
+          name: "Student Performance Analytics",
+          description: "Data pipeline processing academic records to predict student success rates using machine learning algorithms.",
+          tech: ["Python", "Pandas", "Scikit-learn", "PostgreSQL"],
+          type: "Data Science"
+        },
+        {
+          name: "Real-time Stock Tracker",
+          description: "Financial dashboard consuming live market data APIs with predictive modeling and automated trading signals.",
+          tech: ["Python", "React", "Redis", "TensorFlow"],
+          type: "Financial Analytics"
+        }
+      ]
+    },
+    {
+      id: 4,
+      title: "Design and implement software solutions for multiple platforms including mobile devices.",
+      icon: <Smartphone className="w-8 h-8" />,
+      color: "bg-black",
+      projects: [
+        {
+          name: "Fitness Tracking App",
+          description: "Cross-platform mobile application with iOS, Android, and web versions sharing a common backend API.",
+          tech: ["React Native", "Swift", "Kotlin", "Node.js"],
+          type: "Mobile Application"
+        },
+        {
+          name: "IoT Home Automation",
+          description: "Smart home control system with mobile apps, web dashboard, and embedded device firmware.",
+          tech: ["Flutter", "React", "Arduino", "MQTT"],
+          type: "IoT Solution"
+        },
+        {
+          name: "Progressive Web App",
+          description: "Offline-capable web application that functions as a native mobile app with push notifications and device integration.",
+          tech: ["React", "Service Workers", "IndexedDB", "PWA"],
+          type: "Progressive Web App"
+        }
+      ]
+    },
+    {
+      id: 5,
+      title: "Design, develop, and maintain object oriented software solutions utilizing inheritance, encapsulation, polymorphism, and abstraction.",
+      icon: <Layers className="w-8 h-8" />,
+      color: "bg-red-600",
+      projects: [
+        {
+          name: "Library Management System",
+          description: "Object-oriented design implementing inheritance hierarchies for different user types and polymorphic behavior for various media types.",
+          tech: ["Java", "Spring Boot", "MySQL", "JUnit"],
+          type: "Enterprise Application"
+        },
+        {
+          name: "Game Framework",
+          description: "Extensible game engine using design patterns like Factory, Observer, and Strategy with abstract base classes for game entities.",
+          tech: ["C#", "Unity", ".NET", "Design Patterns"],
+          type: "Framework Development"
+        }
+      ]
+    },
+    {
+      id: 6,
+      title: "Within software solutions, describe, implement and analyze data structure techniques.",
+      icon: <BarChart3 className="w-8 h-8" />,
+      color: "bg-black",
+      projects: [
+        {
+          name: "Algorithm Visualizer",
+          description: "Interactive tool demonstrating sorting algorithms, graph traversals, and tree operations with complexity analysis.",
+          tech: ["JavaScript", "D3.js", "React", "Canvas API"],
+          type: "Educational Tool"
+        },
+        {
+          name: "Database Query Optimizer",
+          description: "Custom database engine implementing B-trees, hash tables, and graph algorithms for efficient query processing.",
+          tech: ["C++", "SQLite", "Graph Theory", "Optimization"],
+          type: "Database Engine"
+        },
+        {
+          name: "Network Routing Simulator",
+          description: "Network simulation implementing Dijkstra's algorithm, spanning trees, and dynamic routing protocols.",
+          tech: ["Python", "NetworkX", "Matplotlib", "Algorithms"],
+          type: "Network Simulation"
+        }
+      ]
+    }
+  ];
+
+  return (
+    <section id="objectives" className="py-20 bg-white relative overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-0 left-0 w-1/3 h-1/2 bg-black transform skew-y-12 origin-top-left opacity-5"></div>
+        <div className="absolute bottom-0 right-0 w-1/3 h-1/2 bg-red-600 transform -skew-y-12 origin-bottom-right opacity-5"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
+        <AnimatedSection className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
+            CS DEGREE <span className="text-red-600">OBJECTIVES</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Advancing Computer Science program objectives demonstrated through practical projects and real-world applications
+          </p>
+        </AnimatedSection>
+
+        <div className="space-y-16">
+          {objectives.map((objective, index) => (
+            <AnimatedSection key={objective.id} delay={index * 0.2}>
+              <div className={`${index % 2 === 0 ? 'transform skew-y-1' : 'transform -skew-y-1'} transition-transform duration-300`}>
+                <div className="bg-gray-100 border-4 border-black shadow-2xl overflow-hidden">
+                  <div className={`${index % 2 === 0 ? 'transform -skew-y-1' : 'transform skew-y-1'} p-8`}>
+                    {/* Objective Header */}
+                    <div className="flex items-start mb-8">
+                      <div className={`${objective.color} text-white p-4 mr-6 flex-shrink-0`}>
+                        {objective.icon}
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold text-black mb-4">
+                          Objective {objective.id}
+                        </h3>
+                        <p className="text-gray-700 text-lg leading-relaxed">
+                          {objective.title}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Projects Grid */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {objective.projects.map((project, projectIndex) => (
+                        <div key={projectIndex} className="bg-white border-2 border-gray-300 p-6 hover:border-red-600 transition-colors duration-300 group">
+                          <div className="flex items-center justify-between mb-4">
+                            <h4 className="text-lg font-bold text-black group-hover:text-red-600 transition-colors duration-300">
+                              {project.name}
+                            </h4>
+                            <span className="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">
+                              {project.type}
+                            </span>
+                          </div>
+                          
+                          <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                            {project.description}
+                          </p>
+
+                          {/* Tech Stack */}
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {project.tech.map((tech, techIndex) => (
+                              <span
+                                key={techIndex}
+                                className="bg-gray-100 text-gray-800 px-2 py-1 text-xs font-medium border border-gray-300"
+                              >
+                                {tech}
+                              </span>
+                            ))}
+                          </div>
+
+                          {/* Project Links */}
+                          <div className="flex space-x-3">
+                            <button className="flex items-center space-x-1 bg-black text-white px-3 py-2 text-sm hover:bg-gray-800 transition-colors duration-300">
+                              <Github className="w-3 h-3" />
+                              <span>Code</span>
+                            </button>
+                            <button className="flex items-center space-x-1 bg-red-600 text-white px-3 py-2 text-sm hover:bg-red-700 transition-colors duration-300">
+                              <ExternalLink className="w-3 h-3" />
+                              <span>Demo</span>
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimatedSection>
+          ))}
+        </div>
+
+        {/* Summary Panel */}
+        <AnimatedSection className="mt-20 text-center" delay={1.2}>
+          <div className="bg-black text-white p-8 transform skew-y-2 border-4 border-black shadow-2xl inline-block max-w-4xl">
+            <div className="transform -skew-y-2">
+              <h3 className="text-2xl font-bold mb-4">Comprehensive Learning Journey</h3>
+              <p className="mb-6 text-gray-300">
+                These projects demonstrate mastery of core computer science principles through practical application, 
+                showcasing both technical depth and breadth across multiple domains and technologies.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+                <div className="bg-red-600 p-3">
+                  <div className="font-bold">15+</div>
+                  <div>Projects</div>
+                </div>
+                <div className="bg-red-600 p-3">
+                  <div className="font-bold">10+</div>
+                  <div>Languages</div>
+                </div>
+                <div className="bg-red-600 p-3">
+                  <div className="font-bold">6</div>
+                  <div>Objectives</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
+      </div>
+    </section>
+  );
+};
+
+export default Objectives;

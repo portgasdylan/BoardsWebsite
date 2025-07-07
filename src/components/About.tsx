@@ -1,0 +1,96 @@
+import React from 'react';
+import { BookOpen, Code2, Palette, Zap } from 'lucide-react';
+import AnimatedSection from './AnimatedSection';
+
+const About: React.FC = () => {
+  return (
+    <section id="about" className="py-20 bg-gray-100 relative overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-0 left-0 w-1/4 h-full bg-black transform skew-x-12 origin-top-left opacity-10"></div>
+        <div className="absolute bottom-0 right-0 w-1/4 h-full bg-red-600 transform -skew-x-12 origin-bottom-right opacity-10"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
+        <AnimatedSection className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
+            ABOUT <span className="text-red-600">ME</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Where code meets creativity, and algorithms dance with art
+          </p>
+        </AnimatedSection>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Main Bio Panel */}
+          <AnimatedSection className="lg:col-span-2" delay={0.2} direction="left">
+            <div className="bg-white p-8 transform -skew-y-1 border-4 border-black shadow-2xl">
+              <div className="transform skew-y-1">
+                <h3 className="text-2xl font-bold text-black mb-6">My Story</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  I'm a passionate Computer Science student who found the perfect intersection 
+                  between logical problem-solving and creative storytelling through manga. 
+                  My journey began with late-night coding sessions and weekend manga marathons, 
+                  eventually realizing that both worlds share the same core: compelling narratives 
+                  and attention to detail.
+                </p>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  From debugging complex algorithms to analyzing character development arcs, 
+                  I approach every challenge with the same methodical yet creative mindset. 
+                  This unique perspective allows me to build applications that are not only 
+                  functional but also engaging and user-friendly.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  When I'm not coding, you'll find me exploring the latest manga releases, 
+                  sketching UI wireframes, or combining both passions to create digital 
+                  experiences that tell meaningful stories through technology.
+                </p>
+              </div>
+            </div>
+          </AnimatedSection>
+
+          {/* Side Panels */}
+          <AnimatedSection className="space-y-6" delay={0.4} direction="right">
+            {/* Panel 1 */}
+            <div className="bg-black text-white p-6 transform skew-y-2 border-4 border-black shadow-2xl">
+              <div className="transform -skew-y-2">
+                <Code2 className="w-8 h-8 mb-4 text-red-500" />
+                <h4 className="text-xl font-bold mb-2">Developer</h4>
+                <p className="text-sm">Full-stack development with modern technologies</p>
+              </div>
+            </div>
+
+            {/* Panel 2 */}
+            <div className="bg-red-600 text-white p-6 transform -skew-y-2 border-4 border-black shadow-2xl">
+              <div className="transform skew-y-2">
+                <BookOpen className="w-8 h-8 mb-4" />
+                <h4 className="text-xl font-bold mb-2">Manga Reader</h4>
+                <p className="text-sm">Analyzing storytelling techniques and visual narratives</p>
+              </div>
+            </div>
+
+            {/* Panel 3 */}
+            <div className="bg-white text-black p-6 transform skew-y-2 border-4 border-black shadow-2xl">
+              <div className="transform -skew-y-2">
+                <Palette className="w-8 h-8 mb-4 text-red-600" />
+                <h4 className="text-xl font-bold mb-2">Designer</h4>
+                <p className="text-sm">Creating intuitive and visually appealing interfaces</p>
+              </div>
+            </div>
+
+            {/* Panel 4 */}
+            <div className="bg-black text-white p-6 transform -skew-y-2 border-4 border-black shadow-2xl">
+              <div className="transform skew-y-2">
+                <Zap className="w-8 h-8 mb-4 text-red-500" />
+                <h4 className="text-xl font-bold mb-2">Innovator</h4>
+                <p className="text-sm">Bridging technology and creativity for unique solutions</p>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
