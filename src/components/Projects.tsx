@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">Want to see more?</h3>
               <p className="mb-6">Check out my GitHub for additional projects and contributions</p>
               <a
-                href="#"
+                href="https://github.com/portgasdylan"
                 className="bg-red-600 text-white px-6 py-3 font-semibold hover:bg-red-700 transition-colors duration-300 inline-block"
               >
                 VISIT GITHUB
