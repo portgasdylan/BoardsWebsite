@@ -54,15 +54,15 @@ const Contact: React.FC = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4">
                     <Mail className="w-6 h-6 text-red-500" />
-                    <span>your.email@example.com</span>
+                    <span>dylanmaxwell579@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <Phone className="w-6 h-6 text-red-500" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+1 (123) 456-7891</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <MapPin className="w-6 h-6 text-red-500" />
-                    <span>Your City, State</span>
+                    <span>Tempe, Arizona</span>
                   </div>
                 </div>
               </div>
