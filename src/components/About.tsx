@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Code2, Palette, Zap } from 'lucide-react';
+import { BookOpen, Code2, Palette, Zap, laptop-minimal } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 const About: React.FC = () => {
@@ -47,7 +47,7 @@ const About: React.FC = () => {
               <div className="transform -skew-y-2">
                 <Code2 className="w-8 h-8 mb-4 text-red-500" />
                 <h4 className="text-xl font-bold mb-2">Developer</h4>
-                <p className="text-sm">Full-stack development with modern technologies</p>
+                <p className="text-sm">Bringing Ideas to life through full-stack web and app development.</p>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ const About: React.FC = () => {
             {/* Panel 3 */}
             <div className="bg-white text-black p-6 transform skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform -skew-y-2">
-                <Palette className="w-8 h-8 mb-4 text-red-600" />
+                <laptop-minimal className="w-8 h-8 mb-4 text-red-600" />
                 <h4 className="text-xl font-bold mb-2">Designer</h4>
                 <p className="text-sm">Creating intuitive and visually appealing interfaces</p>
               </div>
