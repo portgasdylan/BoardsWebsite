@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Code2, Palette, Zap, laptop-minimal } from 'lucide-react';
+import { BookOpen, Code2, Palette, Zap, Laptop } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 const About: React.FC = () => {
@@ -54,7 +54,7 @@ const About: React.FC = () => {
             {/* Panel 2 */}
             <div className="bg-red-600 text-white p-6 transform -skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform skew-y-2">
-                <BookOpen className="w-8 h-8 mb-4" />
+                <Laptop className="w-8 h-8 mb-4" />
                 <h4 className="text-xl font-bold mb-2">Manga Reader</h4>
                 <p className="text-sm">Analyzing storytelling techniques and visual narratives</p>
               </div>
