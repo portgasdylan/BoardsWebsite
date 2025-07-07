@@ -31,16 +31,16 @@ const Objectives: React.FC = () => {
       color: "bg-black",
       projects: [
         {
-          name: "Multi-Language Calculator",
-          description: "Scientific calculator implemented in Python (backend), JavaScript (frontend), and Java (desktop version) with shared API.",
-          tech: ["Python", "JavaScript", "Java", "Flask", "Swing"],
-          type: "Multi-Platform"
+          name: "CoPay App",
+          description: "Built using JavaScript/TypeScript and VS Code integration.",
+          tech: ["React", "JavaScript", "TypeScript"],
+          type: "Mobile Application"
         },
         {
-          name: "Cross-Platform Chat App",
-          description: "Real-time messaging application with React Native mobile app, React web client, and Node.js server.",
-          tech: ["React Native", "React", "Node.js", "Socket.io"],
-          type: "Cross-Platform"
+          name: "M5Core2 IoT Display",
+          description: "Developed in C++/Arduino for real-time sensor output and button integrations.",
+          tech: ["C++"],
+          type: "IoT"
         },
         {
           name: "Game Development Suite",
