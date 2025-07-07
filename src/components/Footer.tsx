@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             <div className="w-8 h-8 bg-red-600 transform rotate-45 flex items-center justify-center">
               <Code className="w-4 h-4 text-white transform -rotate-45" />
             </div>
-            <span className="text-xl font-bold">CS.MANGA</span>
+            <span className="text-xl font-bold">Dylan Maxwell</span>
           </div>
 
           <div className="flex items-center space-x-2 text-gray-300">
