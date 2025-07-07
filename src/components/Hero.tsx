@@ -30,8 +30,7 @@ const Hero: React.FC = () => {
                   <span className="block">MANGA</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-800 mb-6">
-                  Computer Science student passionate about creating digital experiences 
-                  inspired by the art and storytelling of manga.
+                  Hello! I'm a computer science major with a passion for coding and creating. 
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a
