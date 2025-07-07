@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
                   <span className="block">Maxwell</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-800 mb-6">
-                  Hello! I'm a computer science major with a passion for coding and creating. 
+                  Hello! I'm a Computer Science major with a strong interest in software development, UI/UX design, and problem solving. I love building intuitive, user-friendly experiences through code.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a
