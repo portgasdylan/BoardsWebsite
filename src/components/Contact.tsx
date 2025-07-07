@@ -81,9 +81,9 @@ const Contact: React.FC = () => {
                   <a href="https://www.linkedin.com/in/dylan-maxwell-86a798254/" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
                     <Linkedin className="w-6 h-6" />
                   </a>
-                  <a href="#" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
+                  {/* <a href="#" className="bg-white text-red-600 p-3 hover:bg-gray-100 transition-colors duration-300">
                     <Twitter className="w-6 h-6" />
-                  </a>
+                  </a> */} 
                 </div>
               </div>
             </div>
