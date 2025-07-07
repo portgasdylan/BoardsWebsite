@@ -11,8 +11,8 @@ const Objectives: React.FC = () => {
       color: "bg-red-600",
       projects: [
         {
-          name: "Task Management System",
-          description: "Full SDLC documentation from requirements gathering to deployment, including UML diagrams, testing strategies, and user acceptance criteria.",
+          name: "CoPay App",
+          description: "Documented and analyzed the app's purpose, competitors, and features as part of my SIP.",
           tech: ["React", "Node.js", "MongoDB", "Jest"],
           type: "Web Application"
         },
