@@ -13,8 +13,8 @@ const Objectives: React.FC = () => {
         {
           name: "CoPay App",
           description: "Documented and analyzed the app's purpose, competitors, and features as part of my SIP.",
-          tech: ["React", "Node.js", "MongoDB", "Jest"],
-          type: "Web Application"
+          tech: ["React", "TypeScript"],
+          type: "Mobile Application"
         },
         {
           name: "E-commerce Platform",
