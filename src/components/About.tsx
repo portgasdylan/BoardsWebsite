@@ -74,7 +74,7 @@ const About: React.FC = () => {
               <div className="transform skew-y-2">
                 <Zap className="w-8 h-8 mb-4 text-red-500" />
                 <h4 className="text-xl font-bold mb-2">Innovator</h4>
-                <p className="text-sm">Bridging technology and creativity for unique solutions</p>
+                <p className="text-sm">Pushing boundaries by combining logic, creativity, and curiosity</p>
               </div>
             </div>
           </AnimatedSection>
