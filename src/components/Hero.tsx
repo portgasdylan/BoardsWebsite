@@ -66,8 +66,8 @@ const Hero: React.FC = () => {
               <div className="bg-red-600 text-white p-6 transform -skew-y-2 border-4 border-black shadow-2xl">
                 <div className="transform skew-y-2">
                   <Heart className="w-8 h-8 mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Manga</h3>
-                  <p className="text-sm">Enthusiast</p>
+                  <h3 className="text-xl font-bold mb-2">a</h3>
+                  <p className="text-sm">a</p>
                 </div>
               </div>
 
