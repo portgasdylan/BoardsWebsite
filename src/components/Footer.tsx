@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
         </AnimatedSection>
 
         <AnimatedSection className="mt-4 pt-4 border-t border-gray-700 text-center text-gray-400" delay={0.2}>
-          <p>&copy; 2025 Dylan Maxwell. All rights reserved.</p>
+          <p>&copy; 2025 Dylan Maxwell.</p>
         </AnimatedSection>
       </div>
     </footer>
