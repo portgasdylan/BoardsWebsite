@@ -57,16 +57,16 @@ const Objectives: React.FC = () => {
       color: "bg-red-600",
       projects: [
         {
-          name: "Student Performance Analytics",
-          description: "Data pipeline processing academic records to predict student success rates using machine learning algorithms.",
-          tech: ["Python", "Pandas", "Scikit-learn", "PostgreSQL"],
+          name: "Theme Park Database (MySQL)",
+          description: "Create a normalized schema with joins and useful queries.",
+          tech: ["MySQL"],
           type: "Data Science"
         },
         {
-          name: "Real-time Stock Tracker",
-          description: "Financial dashboard consuming live market data APIs with predictive modeling and automated trading signals.",
-          tech: ["Python", "React", "Redis", "TensorFlow"],
-          type: "Financial Analytics"
+          name: "Fair Game Website",
+          description: "Stored RFID-linked clothing data and implemented account-based access.",
+          tech: ["MongoDB", "JavaScript", "HTML", "Css"],
+          type: "Website"
         }
       ]
     },
@@ -77,16 +77,16 @@ const Objectives: React.FC = () => {
       color: "bg-black",
       projects: [
         {
-          name: "Fitness Tracking App",
-          description: "Cross-platform mobile application with iOS, Android, and web versions sharing a common backend API.",
-          tech: ["React Native", "Swift", "Kotlin", "Node.js"],
+          name: "CoPay App",
+          description: "Designed for both mobile and web usage, enabling shared group payments.",
+          tech: ["React Native", "JavaScript", "TypeScript"],
           type: "Mobile Application"
         },
         {
-          name: "IoT Home Automation",
-          description: "Smart home control system with mobile apps, web dashboard, and embedded device firmware.",
-          tech: ["Flutter", "React", "Arduino", "MQTT"],
-          type: "IoT Solution"
+          name: "React Native App",
+          description: "Demonstrated cross-platform functionality for mobile users.",
+          tech: ["React Native"],
+          type: "Mobile Application."
         },
         {
           name: "Progressive Web App",
@@ -103,16 +103,16 @@ const Objectives: React.FC = () => {
       color: "bg-red-600",
       projects: [
         {
-          name: "Library Management System",
-          description: "Object-oriented design implementing inheritance hierarchies for different user types and polymorphic behavior for various media types.",
-          tech: ["Java", "Spring Boot", "MySQL", "JUnit"],
-          type: "Enterprise Application"
+          name: "Ninja vs Pirate Game",
+          description: "Implemented class heirarchy with overriding methods and encapsulated properties.",
+          tech: ["C++"],
+          type: "Application"
         },
         {
-          name: "Game Framework",
-          description: "Extensible game engine using design patterns like Factory, Observer, and Strategy with abstract base classes for game entities.",
-          tech: ["C#", "Unity", ".NET", "Design Patterns"],
-          type: "Framework Development"
+          name: "Banking App",
+          description: "Created using multiple classes with proper OOP principles applied.",
+          tech: ["C++"],
+          type: "Application"
         }
       ]
     },
@@ -123,16 +123,16 @@ const Objectives: React.FC = () => {
       color: "bg-black",
       projects: [
         {
-          name: "Algorithm Visualizer",
-          description: "Interactive tool demonstrating sorting algorithms, graph traversals, and tree operations with complexity analysis.",
-          tech: ["JavaScript", "D3.js", "React", "Canvas API"],
-          type: "Educational Tool"
+          name: "Trivia Game Database",
+          description: "Built stored procedures and views to manage quiz questions and game sessions.",
+          tech: ["MySQL"],
+          type: "Data Science"
         },
         {
-          name: "Database Query Optimizer",
-          description: "Custom database engine implementing B-trees, hash tables, and graph algorithms for efficient query processing.",
-          tech: ["C++", "SQLite", "Graph Theory", "Optimization"],
-          type: "Database Engine"
+          name: "NBA Player/Sponsor Tracker",
+          description: "Used relational modeling with normalized tables and structured queries",
+          tech: ["MySQL"],
+          type: "Data Science"
         },
         {
           name: "Network Routing Simulator",
