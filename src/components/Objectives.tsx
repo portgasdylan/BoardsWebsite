@@ -42,12 +42,6 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "IoT"
         },
-        {
-          name: "Game Development Suite",
-          description: "2D game engine built in C++ with Python scripting support and Unity integration for rapid prototyping.",
-          tech: ["C++", "Python", "Unity", "OpenGL"],
-          type: "Game Engine"
-        }
       ]
     },
     {
