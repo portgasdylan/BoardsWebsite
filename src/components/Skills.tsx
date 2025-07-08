@@ -115,10 +115,10 @@ const Skills: React.FC = () => {
                 Currently exploring: Machine Learning, Web3 Development, and Advanced React Patterns
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <span className="bg-red-600 text-white px-4 py-2 font-medium">TensorFlow</span>
-                <span className="bg-red-600 text-white px-4 py-2 font-medium">Solidity</span>
-                <span className="bg-red-600 text-white px-4 py-2 font-medium">Next.js</span>
-                <span className="bg-red-600 text-white px-4 py-2 font-medium">GraphQL</span>
+                <span className="bg-red-600 text-white px-4 py-2 font-medium">Place</span>
+                <span className="bg-red-600 text-white px-4 py-2 font-medium">Place</span>
+                <span className="bg-red-600 text-white px-4 py-2 font-medium">Place</span>
+                <span className="bg-red-600 text-white px-4 py-2 font-medium">Place</span>
               </div>
             </div>
           </div>
