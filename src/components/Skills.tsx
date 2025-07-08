@@ -41,6 +41,7 @@ const Skills: React.FC = () => {
       icon: <Zap className="w-6 h-6" />,
       color: "bg-black",
       skills: [
+        { name: "C++", level: 90 },
         { name: "Git", level: 90 },
         { name: "Figma", level: 65 },
         { name: "Photoshop", level: 60 },
