@@ -253,7 +253,7 @@ const Objectives: React.FC = () => {
                 </div>
                 <div className="bg-red-600 p-3">
                   <div className="font-bold">6</div>
-                  <div>Objectives</div>
+                  <div>Degree Objectives</div>
                 </div>
               </div>
             </div>
