@@ -237,7 +237,7 @@ const Objectives: React.FC = () => {
         <AnimatedSection className="mt-20 text-center" delay={1.2}>
           <div className="bg-black text-white p-8 transform skew-y-2 border-4 border-black shadow-2xl inline-block max-w-4xl">
             <div className="transform -skew-y-2">
-              <h3 className="text-2xl font-bold mb-4">Comprehensive Learning Journey</h3>
+              <h3 className="text-2xl font-bold mb-4">Learning Journey</h3>
               <p className="mb-6 text-gray-300">
                 These projects demonstrate mastery of core computer science principles through practical application, 
                 showcasing technical depth across multiple domains and technologies.
