@@ -240,7 +240,7 @@ const Objectives: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">Comprehensive Learning Journey</h3>
               <p className="mb-6 text-gray-300">
                 These projects demonstrate mastery of core computer science principles through practical application, 
-                showcasing both technical depth and breadth across multiple domains and technologies.
+                showcasing technical depth across multiple domains and technologies.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
                 <div className="bg-red-600 p-3">
