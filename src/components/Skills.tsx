@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
       color: "bg-red-600",
       skills: [
         { name: "MongoDB", level: 80 },
-        { name: "MySQL", level: 75 },
+        { name: "SQL", level: 75 },
       ]
     },
     {
