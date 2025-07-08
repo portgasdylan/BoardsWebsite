@@ -17,7 +17,7 @@ const Objectives: React.FC = () => {
           type: "Mobile Application"
         },
         {
-          name: "Maze Generator
+          name: "Maze Generator",
           description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
           tech: ["C++"],
           type: "Program"
