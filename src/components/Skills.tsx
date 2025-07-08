@@ -42,9 +42,9 @@ const Skills: React.FC = () => {
       color: "bg-black",
       skills: [
         { name: "Git", level: 90 },
-        { name: "Docker", level: 65 },
-        { name: "AWS", level: 60 },
-        { name: "Figma", level: 80 }
+        { name: "Figma", level: 65 },
+        { name: "Photoshop", level: 60 },
+        { name: "Illustrator", level: 80 }
       ]
     }
   ];
