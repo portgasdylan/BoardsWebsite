@@ -248,7 +248,7 @@ const Objectives: React.FC = () => {
                   <div>Projects</div>
                 </div>
                 <div className="bg-red-600 p-3">
-                  <div className="font-bold">10+</div>
+                  <div className="font-bold">7</div>
                   <div>Languages</div>
                 </div>
                 <div className="bg-red-600 p-3">
