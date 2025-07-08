@@ -82,12 +82,6 @@ const Objectives: React.FC = () => {
           tech: ["React Native"],
           type: "Mobile Application."
         },
-        {
-          name: "Progressive Web App",
-          description: "Offline-capable web application that functions as a native mobile app with push notifications and device integration.",
-          tech: ["React", "Service Workers", "IndexedDB", "PWA"],
-          type: "Progressive Web App"
-        }
       ]
     },
     {
