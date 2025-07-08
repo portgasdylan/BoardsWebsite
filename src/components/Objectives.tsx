@@ -122,12 +122,6 @@ const Objectives: React.FC = () => {
           tech: ["MySQL"],
           type: "Data Science"
         },
-        {
-          name: "Network Routing Simulator",
-          description: "Network simulation implementing Dijkstra's algorithm, spanning trees, and dynamic routing protocols.",
-          tech: ["Python", "NetworkX", "Matplotlib", "Algorithms"],
-          type: "Network Simulation"
-        }
       ]
     }
   ];
