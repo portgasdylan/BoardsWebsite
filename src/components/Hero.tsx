@@ -26,8 +26,7 @@ const Hero: React.FC = () => {
               <div className="transform skew-y-2">
                 <h1 className="text-4xl md:text-6xl font-bold text-black mb-4">
                   <span className="block">Dylan</span>
-                  <span className="block text-red-600">J.</span>
-                  <span className="block">Maxwell</span>
+                  <span className="block text-red-600">Maxwell</span>
                 </h1>
                 <p className="text-lg md:text-xl text-gray-800 mb-6">
                   Hello! I'm a Computer Science major with a strong interest in software development, UI/UX design, and problem solving. I love building intuitive, user-friendly experiences through code.
