@@ -1,6 +1,7 @@
 import React from 'react';
 import { Smartphone, Users, CreditCard, Zap, Github, ExternalLink, Play } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
+import CoPayLogo from '../assets/CoPay.png';
 
 const CoPay: React.FC = () => {
   return (
@@ -27,11 +28,12 @@ const CoPay: React.FC = () => {
             {/* Logo Panel */}
             <div className="bg-white p-8 transform skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform -skew-y-2 text-center">
-                <div className="w-64 h-32 mx-auto mb-6 bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center rounded-lg">
-                  <div className="text-center">
-                    <div className="text-4xl font-bold text-white mb-2">CoPay</div>
-                    <div className="text-blue-200 text-sm">Split Smarter</div>
-                  </div>
+                <div className="w-64 h-32 mx-auto mb-6 bg-white flex items-center justify-center rounded-lg border-2 border-gray-200">
+                  <img 
+                    src={CoPayLogo} 
+                    alt="CoPay Logo" 
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
                 <h3 className="text-2xl font-bold text-black mb-2">CoPay</h3>
                 <p className="text-blue-500 font-semibold text-lg">Split Smarter</p>
