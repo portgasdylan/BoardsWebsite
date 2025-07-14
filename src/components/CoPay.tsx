@@ -46,7 +46,7 @@ const CoPay: React.FC = () => {
                 </h4>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   CoPay is a comprehensive bill-splitting application designed to simplify group payments and expense management. 
-                  Built as my Senior Independent Project, it demonstrates full-stack development skills and user-centered design principles.
+                  Built as my Student Innovation Project, it demonstrates full-stack development skills and user-centered design principles.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 mb-6">
