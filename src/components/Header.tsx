@@ -25,6 +25,9 @@ const Header: React.FC = () => {
             <a href="#objectives" className="text-white hover:text-red-500 transition-colors duration-300 font-medium">
               Objectives
             </a>
+            <a href="#copay" className="text-white hover:text-red-500 transition-colors duration-300 font-medium">
+              CoPay
+            </a>
             <a href="#projects" className="text-white hover:text-red-500 transition-colors duration-300 font-medium">
               Projects
             </a>
@@ -70,6 +73,14 @@ const Header: React.FC = () => {
               >
                 <User size={16} />
                 <span>Objectives</span>
+              </a>
+              <a
+                href="#copay"
+                className="text-white hover:text-red-500 transition-colors duration-300 font-medium flex items-center space-x-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <User size={16} />
+                <span>CoPay</span>
               </a>
               <a
                 href="#projects"
