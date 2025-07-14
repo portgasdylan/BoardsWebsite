@@ -27,11 +27,12 @@ const CoPay: React.FC = () => {
             {/* Logo Panel */}
             <div className="bg-white p-8 transform skew-y-2 border-4 border-black shadow-2xl">
               <div className="transform -skew-y-2 text-center">
-                <img 
-                  src="/src/assets/CoPay.png" 
-                  alt="CoPay Logo" 
-                  className="w-64 h-auto mx-auto mb-6"
-                />
+                <div className="w-64 h-32 mx-auto mb-6 bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center rounded-lg">
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-white mb-2">CoPay</div>
+                    <div className="text-blue-200 text-sm">Split Smarter</div>
+                  </div>
+                </div>
                 <h3 className="text-2xl font-bold text-black mb-2">CoPay</h3>
                 <p className="text-blue-500 font-semibold text-lg">Split Smarter</p>
               </div>
