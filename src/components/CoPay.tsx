@@ -18,7 +18,7 @@ const CoPay: React.FC = () => {
             SIP <span className="text-red-600">COPAY</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Student Innovation project - A smart bill splitting application
+            Student Innovation Project - A smart bill splitting application
           </p>
         </AnimatedSection>
 
