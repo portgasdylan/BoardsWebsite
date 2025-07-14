@@ -211,7 +211,7 @@ const CoPay: React.FC = () => {
                 <div className="text-gray-400">|</div>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                  <span className="text-sm font-medium">Senior Independent Project</span>
+                  <span className="text-sm font-medium">Student Innovation Project</span>
                 </div>
               </div>
             </div>
