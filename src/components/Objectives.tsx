@@ -23,7 +23,7 @@ const Objectives: React.FC = () => {
           description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
           tech: ["C++"],
           type: "Program",
-          github: null,
+          github: "https://github.com/portgasdylan/CSC275/tree/main/Recursion",
           demo: null
         },
         {
