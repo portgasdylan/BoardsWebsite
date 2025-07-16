@@ -39,7 +39,7 @@ const Objectives: React.FC = () => {
           description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
-          github: null,
+          github: "https://github.com/portgasdylan/BoardsWebsite",
           demo: null
         }
       ]
