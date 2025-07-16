@@ -76,8 +76,8 @@ const CoPay: React.FC = () => {
                   >
                     <ExternalLink className="w-4 h-4" />
                     <span>Live Demo</span>
-                    /a>
                   </button>
+                  a>
                 </div>
               </div>
             </div>
