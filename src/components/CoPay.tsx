@@ -68,6 +68,15 @@ const CoPay: React.FC = () => {
                     <Github className="w-4 h-4" />
                     <span>View Code</span>
                   </button>
+                  <a
+                    href="https://github.com/portgasdylan/CoPaySIP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 bg-white text-black px-4 py-2 font-semibold hover:bg-gray-100 transition-colors duration-300"
+                  >
+                    <Github className="w-4 h-4" />
+                    <span>View Code</span>
+                  </a>
                   <button className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 font-semibold hover:bg-red-700 transition-colors duration-300">
                     <ExternalLink className="w-4 h-4" />
                     <span>Live Demo</span>
