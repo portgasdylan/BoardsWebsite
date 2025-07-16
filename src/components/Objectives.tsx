@@ -139,6 +139,14 @@ const Objectives: React.FC = () => {
           demo: null
         },
         {
+          name: "Genshin Impact Simulator",
+          description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
+          tech: ["C++"],
+          type: "Game Simulation",
+          github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
+          demo: null
+        },
+        {
           name: "Banking App",
           description: "Created using multiple classes with proper OOP principles applied.",
           tech: ["C++"],
