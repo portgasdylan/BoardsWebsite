@@ -71,7 +71,7 @@ const Objectives: React.FC = () => {
           description: "Built using React/TypeScript in VS Code with modern development practices.",
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
-          github: null,
+          github: https://github.com/portgasdylan/BoardsWebsite,
           demo: null
         },
       ]
