@@ -95,7 +95,7 @@ const Objectives: React.FC = () => {
           description: "Stored RFID-linked clothing data and implemented account-based access.",
           tech: ["MongoDB", "JavaScript", "HTML", "Css"],
           type: "Website",
-          github: null,
+          github: "https://github.com/FAIR-GAME-TM/Fair_Game-V2.0",
           demo: null
         }
       ]
