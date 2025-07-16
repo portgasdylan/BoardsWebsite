@@ -171,11 +171,11 @@ const Objectives: React.FC = () => {
           demo: null
         },
         {
-          name: "NBA Player/Sponsor Tracker",
-          description: "Used relational modeling with normalized tables and structured queries",
-          tech: ["MySQL"],
-          type: "Data Science",
-          github: null,
+          name: "Fair Game Website",
+          description: "This web application implements and analyzes data structure techniques through MongoDB's schema design and JavaScript-based logic to manage user-linked scholar garments and access control.",
+          tech: ["MongoDB", "JavaScript", "HTML", "Css"],
+          type: "Website",
+          github: "https://github.com/FAIR-GAME-TM/Fair_Game-V2.0",
           demo: null
         },
       ]
