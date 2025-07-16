@@ -27,6 +27,12 @@ const Objectives: React.FC = () => {
           description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
           tech: ["C++"],
           type: "Game Simulation"
+        },
+        {
+          name: "Portfolio Website",
+          description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
+          tech: ["React", "TypeScript", "Tailwind CSS"],
+          type: "Web Application"
         }
       ]
     },
@@ -47,6 +53,12 @@ const Objectives: React.FC = () => {
           description: "Developed in C++/Arduino for real-time sensor output and button integrations.",
           tech: ["C++"],
           type: "IoT"
+        },
+        {
+          name: "Portfolio Website",
+          description: "Built using React/TypeScript in VS Code with modern development practices.",
+          tech: ["React", "TypeScript", "Tailwind CSS"],
+          type: "Web Application"
         },
       ]
     },
@@ -83,10 +95,10 @@ const Objectives: React.FC = () => {
           type: "Mobile Application"
         },
         {
-          name: "React Native App",
-          description: "Demonstrated cross-platform functionality for mobile users.",
-          tech: ["React Native"],
-          type: "Mobile Application."
+          name: "Portfolio Website",
+          description: "Responsive design that works seamlessly across desktop, tablet, and mobile devices.",
+          tech: ["React", "TypeScript", "Tailwind CSS"],
+          type: "Web Application"
         },
       ]
     },
