@@ -135,7 +135,7 @@ const Objectives: React.FC = () => {
           description: "Implemented class heirarchy with overriding methods and encapsulated properties.",
           tech: ["C++"],
           type: "Application",
-          github: null,
+          github: "https://github.com/portgasdylan/CSC275/tree/main/NinjaVPirates",
           demo: null
         },
         {
