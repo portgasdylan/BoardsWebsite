@@ -63,7 +63,7 @@ const Objectives: React.FC = () => {
           description: "Developed in C++/Arduino for real-time sensor output and button integrations.",
           tech: ["C++"],
           type: "IoT",
-          github: null,
+          github: "https://github.com/portgasdylan/CSC230/blob/main/Lab8",
           demo: null
         },
         {
