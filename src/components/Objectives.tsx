@@ -21,6 +21,12 @@ const Objectives: React.FC = () => {
           description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
           tech: ["C++"],
           type: "Program"
+        },
+        {
+          name: "Genshin Impact Simulator",
+          description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
+          tech: ["C++"],
+          type: "Game Simulation"
         }
       ]
     },
