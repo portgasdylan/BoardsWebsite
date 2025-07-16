@@ -140,7 +140,7 @@ const Objectives: React.FC = () => {
         },
         {
           name: "Genshin Impact Simulator",
-          description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
+          description: "Built class hierarchy leveraging inheritance, encapsulation, abstraction, and polymorphism.",
           tech: ["C++"],
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
