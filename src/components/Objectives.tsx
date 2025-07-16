@@ -151,7 +151,7 @@ const Objectives: React.FC = () => {
           description: "Created using multiple classes with proper OOP principles applied.",
           tech: ["C++"],
           type: "Application",
-          github: null,
+          github: "https://github.com/portgasdylan/CSC275/tree/main/BankingApp",
           demo: null
         }
       ]
