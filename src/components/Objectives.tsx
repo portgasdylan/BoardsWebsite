@@ -87,7 +87,7 @@ const Objectives: React.FC = () => {
           description: "Create a normalized schema with joins and useful queries.",
           tech: ["MySQL"],
           type: "Data Science",
-          github: null,
+          github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
           demo: null
         },
         {
