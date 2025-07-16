@@ -95,10 +95,10 @@ const Objectives: React.FC = () => {
           type: "Mobile Application"
         },
         {
-          name: "Portfolio Website",
-          description: "Responsive design that works seamlessly across desktop, tablet, and mobile devices.",
-          tech: ["React", "TypeScript", "Tailwind CSS"],
-          type: "Web Application"
+          name: "Vowel Learning App",
+          description: "Educational mobile app teaching vowel pronunciation in both English and Spanish with interactive exercises.",
+          tech: ["React Native", "JavaScript"],
+          type: "Mobile Application"
         },
       ]
     },
