@@ -14,25 +14,33 @@ const Objectives: React.FC = () => {
           name: "CoPay App",
           description: "Documented and analyzed the app's purpose, competitors, and features as part of my SIP.",
           tech: ["React", "TypeScript", "JavaScript"],
-          type: "Mobile Application"
+          type: "Mobile Application",
+          github: "https://github.com/portgasdylan/CoPaySIP",
+          demo: null
         },
         {
           name: "Maze Generator",
           description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
           tech: ["C++"],
-          type: "Program"
+          type: "Program",
+          github: null,
+          demo: null
         },
         {
           name: "Genshin Impact Simulator",
           description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
           tech: ["C++"],
-          type: "Game Simulation"
+          type: "Game Simulation",
+          github: null,
+          demo: null
         },
         {
           name: "Portfolio Website",
           description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
           tech: ["React", "TypeScript", "Tailwind CSS"],
-          type: "Web Application"
+          type: "Web Application",
+          github: null,
+          demo: null
         }
       ]
     },
@@ -46,19 +54,25 @@ const Objectives: React.FC = () => {
           name: "CoPay App",
           description: "Built using JavaScript/TypeScript and VS Code integration.",
           tech: ["React", "JavaScript", "TypeScript"],
-          type: "Mobile Application"
+          type: "Mobile Application",
+          github: "https://github.com/portgasdylan/CoPaySIP",
+          demo: null
         },
         {
           name: "M5Core2 IoT Display",
           description: "Developed in C++/Arduino for real-time sensor output and button integrations.",
           tech: ["C++"],
-          type: "IoT"
+          type: "IoT",
+          github: null,
+          demo: null
         },
         {
           name: "Portfolio Website",
           description: "Built using React/TypeScript in VS Code with modern development practices.",
           tech: ["React", "TypeScript", "Tailwind CSS"],
-          type: "Web Application"
+          type: "Web Application",
+          github: null,
+          demo: null
         },
       ]
     },
@@ -72,13 +86,17 @@ const Objectives: React.FC = () => {
           name: "Theme Park Database (MySQL)",
           description: "Create a normalized schema with joins and useful queries.",
           tech: ["MySQL"],
-          type: "Data Science"
+          type: "Data Science",
+          github: null,
+          demo: null
         },
         {
           name: "Fair Game Website",
           description: "Stored RFID-linked clothing data and implemented account-based access.",
           tech: ["MongoDB", "JavaScript", "HTML", "Css"],
-          type: "Website"
+          type: "Website",
+          github: null,
+          demo: null
         }
       ]
     },
@@ -92,13 +110,17 @@ const Objectives: React.FC = () => {
           name: "CoPay App",
           description: "Designed for both mobile and web usage, enabling shared group payments.",
           tech: ["React Native", "JavaScript", "TypeScript"],
-          type: "Mobile Application"
+          type: "Mobile Application",
+          github: "https://github.com/portgasdylan/CoPaySIP",
+          demo: null
         },
         {
           name: "Vowel Learning App",
           description: "Educational mobile app teaching vowel pronunciation in both English and Spanish with interactive exercises.",
           tech: ["React Native", "JavaScript"],
-          type: "Mobile Application"
+          type: "Mobile Application",
+          github: null,
+          demo: null
         },
       ]
     },
@@ -112,13 +134,17 @@ const Objectives: React.FC = () => {
           name: "Ninja vs Pirate Game",
           description: "Implemented class heirarchy with overriding methods and encapsulated properties.",
           tech: ["C++"],
-          type: "Application"
+          type: "Application",
+          github: null,
+          demo: null
         },
         {
           name: "Banking App",
           description: "Created using multiple classes with proper OOP principles applied.",
           tech: ["C++"],
-          type: "Application"
+          type: "Application",
+          github: null,
+          demo: null
         }
       ]
     },
@@ -132,13 +158,17 @@ const Objectives: React.FC = () => {
           name: "Trivia Game Database",
           description: "Built stored procedures and views to manage quiz questions and game sessions.",
           tech: ["MySQL"],
-          type: "Data Science"
+          type: "Data Science",
+          github: null,
+          demo: null
         },
         {
           name: "NBA Player/Sponsor Tracker",
           description: "Used relational modeling with normalized tables and structured queries",
           tech: ["MySQL"],
-          type: "Data Science"
+          type: "Data Science",
+          github: null,
+          demo: null
         },
       ]
     }
@@ -214,14 +244,28 @@ const Objectives: React.FC = () => {
 
                           {/* Project Links */}
                           <div className="flex space-x-3">
-                            <button className="flex items-center space-x-1 bg-black text-white px-3 py-2 text-sm hover:bg-gray-800 transition-colors duration-300">
-                              <Github className="w-3 h-3" />
-                              <span>Code</span>
-                            </button>
-                            <button className="flex items-center space-x-1 bg-red-600 text-white px-3 py-2 text-sm hover:bg-red-700 transition-colors duration-300">
-                              <ExternalLink className="w-3 h-3" />
-                              <span>Demo</span>
-                            </button>
+                            {project.github && (
+                              <a
+                                href={project.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-1 bg-black text-white px-3 py-2 text-sm hover:bg-gray-800 transition-colors duration-300"
+                              >
+                                <Github className="w-3 h-3" />
+                                <span>Code</span>
+                              </a>
+                            )}
+                            {project.demo && (
+                              <a
+                                href={project.demo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-1 bg-red-600 text-white px-3 py-2 text-sm hover:bg-red-700 transition-colors duration-300"
+                              >
+                                <ExternalLink className="w-3 h-3" />
+                                <span>Demo</span>
+                              </a>
+                            )}
                           </div>
                         </div>
                       ))}
