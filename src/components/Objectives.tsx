@@ -91,6 +91,14 @@ const Objectives: React.FC = () => {
           demo: null
         },
         {
+          name: "To-Do List with Priority Sorting",
+          description: "This task management app implements a data-driven solution by storing, processing, and transforming task data to dynamically control UI behavior, sorting, filtering, and persistence.",
+          tech: ["HTML", "CSS", "Javascript"],
+          type: "Program",
+          github: null,
+          demo: null
+        },
+        {
           name: "Fair Game Website",
           description: "Stored RFID-linked clothing data and implemented account-based access.",
           tech: ["MongoDB", "JavaScript", "HTML", "Css"],
