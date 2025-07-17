@@ -304,7 +304,7 @@ const Objectives: React.FC = () => {
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
                 <div className="bg-red-600 p-3">
-                  <div className="font-bold">15+</div>
+                  <div className="font-bold">17</div>
                   <div>Projects</div>
                 </div>
                 <div className="bg-red-600 p-3">
