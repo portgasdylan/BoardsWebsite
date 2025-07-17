@@ -163,10 +163,10 @@ const Objectives: React.FC = () => {
       color: "bg-black",
       projects: [
         {
-          name: "Trivia Game Database",
-          description: "Built stored procedures and views to manage quiz questions and game sessions.",
-          tech: ["MySQL"],
-          type: "Data Science",
+          name: "To-Do List with Priority Sorting",
+          description: "This project demonstrates the implementation and analysis of data structure techniques through object arrays, sorting algorithms, filtering, and persistent state management using serialization with localStorage",
+          tech: ["HTML", "CSS", "Javascript"],
+          type: "Program",
           github: null,
           demo: null
         },
