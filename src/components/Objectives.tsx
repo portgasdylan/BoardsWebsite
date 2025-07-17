@@ -95,7 +95,7 @@ const Objectives: React.FC = () => {
           description: "This task management app implements a data-driven solution by storing, processing, and transforming task data to dynamically control UI behavior, sorting, filtering, and persistence.",
           tech: ["HTML", "CSS", "Javascript"],
           type: "Program",
-          github: null,
+          github: "https://github.com/portgasdylan/ToDoList",
           demo: null
         },
         {
