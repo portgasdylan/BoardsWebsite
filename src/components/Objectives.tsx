@@ -175,7 +175,7 @@ const Objectives: React.FC = () => {
           description: "This project demonstrates the implementation and analysis of data structure techniques through object arrays, sorting algorithms, filtering, and persistent state management using serialization with localStorage",
           tech: ["HTML", "CSS", "Javascript"],
           type: "Program",
-          github: null,
+          github: "https://github.com/portgasdylan/ToDoList",
           demo: null
         },
         {
