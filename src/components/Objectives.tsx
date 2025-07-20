@@ -18,14 +18,14 @@ const Objectives: React.FC = () => {
           github: "https://github.com/portgasdylan/CoPaySIP",
           demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share"
         },
-        {
-          name: "Maze Generator",
-          description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
-          tech: ["C++"],
-          type: "Program",
-          github: "https://github.com/portgasdylan/CSC275/tree/main/Recursion",
-          demo: null
-        },
+        // {
+        //   name: "Maze Generator",
+        //   description: "Designed and tested a recursize maze-generation algorithm with optional solvability.",
+        //   tech: ["C++"],
+        //   type: "Program",
+        //   github: "https://github.com/portgasdylan/CSC275/tree/main/Recursion",
+        //   demo: null
+        // }, 
         {
           name: "Genshin Impact Simulator",
           description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
