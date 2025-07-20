@@ -56,7 +56,7 @@ const Objectives: React.FC = () => {
           tech: ["React", "JavaScript", "TypeScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
-          demo: null
+          demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share"
         },
         {
           name: "M5Core2 IoT Display",
