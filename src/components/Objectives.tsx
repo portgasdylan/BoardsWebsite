@@ -40,7 +40,7 @@ const Objectives: React.FC = () => {
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
-          demo: null
+          demo: "https://dylanmaxwell.netlify.app/"
         }
       ]
     },
@@ -72,7 +72,7 @@ const Objectives: React.FC = () => {
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
-          demo: null
+          demo: "https://dylanmaxwell.netlify.app/"
         },
       ]
     },
