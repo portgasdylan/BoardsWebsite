@@ -16,7 +16,7 @@ const Objectives: React.FC = () => {
           tech: ["React", "TypeScript", "JavaScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
-          demo: null
+          demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share"
         },
         {
           name: "Maze Generator",
