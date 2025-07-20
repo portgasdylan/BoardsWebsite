@@ -120,7 +120,7 @@ const Objectives: React.FC = () => {
           tech: ["React Native", "JavaScript", "TypeScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
-          demo: null
+          demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share"
         },
         {
           name: "Vowel Learning App",
