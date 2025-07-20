@@ -127,7 +127,7 @@ const Objectives: React.FC = () => {
           description: "Educational mobile app teaching vowel pronunciation in both English and Spanish with interactive exercises.",
           tech: ["React Native", "JavaScript"],
           type: "Mobile Application",
-          github: null,
+          github: "https://github.com/portgasdylan/VowelLearning",
           demo: null
         },
       ]
