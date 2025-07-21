@@ -176,7 +176,7 @@ const Objectives: React.FC = () => {
           tech: ["HTML", "CSS", "Javascript"],
           type: "Program",
           github: "https://github.com/portgasdylan/ToDoList",
-          demo: null
+          demo: "https://youtu.be/kKP6MIAWJbM"
         },
         {
           name: "Fair Game Website",
