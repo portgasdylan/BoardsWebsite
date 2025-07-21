@@ -29,7 +29,7 @@ const Objectives: React.FC = () => {
         //   demo: null
         // }, 
         {
-          name: "Genshin Impact Simulator",
+          name: "Genshin Impact (Game) Simulator",
           description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
           explanation: "I built this game step by step, first figuring out how gacha systems work, then designing the code structure, and finally testing it to make sure the probabilities worked correctly. This shows I can break down complex problems and build working solutions.",
           tech: ["C++"],
