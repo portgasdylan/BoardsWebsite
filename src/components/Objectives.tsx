@@ -32,7 +32,7 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
-          demo: null
+          demo: "https://youtu.be/GPpk6bh7kr0"
         },
         {
           name: "Portfolio Website",
@@ -152,7 +152,7 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
-          demo: null
+          demo: "https://youtu.be/GPpk6bh7kr0"
         },
         {
           name: "Banking App",
