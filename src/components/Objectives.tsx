@@ -82,7 +82,7 @@ const Objectives: React.FC = () => {
       icon: <Database className="w-8 h-8" />,
       color: "bg-red-600",
       projects: [
-        {
+        // {
         //   name: "Theme Park Database (MySQL)",
         //   description: "Create a normalized schema with joins and useful queries.",
         //   tech: ["MySQL"],
