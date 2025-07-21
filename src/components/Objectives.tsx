@@ -17,7 +17,7 @@ const Objectives: React.FC = () => {
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
           demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share",
-          pdf: null
+          pdf: "public/CoPayDocumentation.pdf"
         },
         // {
         //   name: "Maze Generator",
@@ -34,7 +34,7 @@ const Objectives: React.FC = () => {
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
           demo: "https://youtu.be/GPpk6bh7kr0",
-          pdf: "public/CoPayDocumentation.pdf"
+          pdf: null
         },
         {
           name: "Portfolio Website",
