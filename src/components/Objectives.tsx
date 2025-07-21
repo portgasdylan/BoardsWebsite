@@ -66,7 +66,7 @@ const Objectives: React.FC = () => {
           demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share"
         },
         {
-          name: "M5Core2 IoT Display",
+          name: "M5Core2 IoT Display Color Changer",
           description: "Developed in C++/Arduino for real-time sensor output and button integrations.",
           explanation: "This project uses C++ and Arduino IDE, which are completely different from web development. I had to learn new tools and ways of coding for hardware instead of websites, showing I can adapt to different programming environments.",
           tech: ["C++"],
