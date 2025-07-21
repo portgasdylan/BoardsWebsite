@@ -64,7 +64,7 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "IoT",
           github: "https://github.com/portgasdylan/CSC230/blob/main/Lab8",
-          demo: null
+          demo: "https://www.youtube.com/shorts/AfAaL3NtWaE"
         },
         {
           name: "Portfolio Website",
