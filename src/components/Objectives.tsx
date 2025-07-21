@@ -18,7 +18,7 @@ const Objectives: React.FC = () => {
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
           demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share",
-          pdf: "public/CoPayDocumentation.pdf"
+          pdf: "/CoPayDocumentation.pdf"
         },
         // {
         //   name: "Maze Generator",
