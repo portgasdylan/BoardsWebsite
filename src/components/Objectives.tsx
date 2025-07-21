@@ -144,7 +144,7 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "Application",
           github: "https://github.com/portgasdylan/CSC275/tree/main/NinjaVPirates",
-          demo: null
+          demo: "https://youtu.be/cgCruoKg5-M"
         },
         {
           name: "Genshin Impact Simulator",
