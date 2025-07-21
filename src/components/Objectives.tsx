@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Smartphone, Globe, Layers, BarChart3, Github, ExternalLink } from 'lucide-react';
+import { Code, Database, Smartphone, Globe, Layers, BarChart3, Github, ExternalLink, FileText } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 const Objectives: React.FC = () => {
@@ -16,7 +16,8 @@ const Objectives: React.FC = () => {
           tech: ["React", "TypeScript", "JavaScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
-          demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share"
+          demo: "https://youtube.com/shorts/pVcEdkaTU-8?feature=share",
+          pdf: null
         },
         // {
         //   name: "Maze Generator",
@@ -32,7 +33,8 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
-          demo: "https://youtu.be/GPpk6bh7kr0"
+          demo: "https://youtu.be/GPpk6bh7kr0",
+          pdf: null
         },
         {
           name: "Portfolio Website",
@@ -40,7 +42,8 @@ const Objectives: React.FC = () => {
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
-          demo: "https://dylanmaxwell.netlify.app/"
+          demo: "https://dylanmaxwell.netlify.app/",
+          pdf: null
         }
       ]
     },
@@ -259,7 +262,7 @@ const Objectives: React.FC = () => {
                           </div>
 
                           {/* Project Links */}
-                          <div className="flex space-x-3">
+                          <div className="flex flex-wrap gap-2">
                             {project.github && (
                               <a
                                 href={project.github}
@@ -280,6 +283,17 @@ const Objectives: React.FC = () => {
                               >
                                 <ExternalLink className="w-3 h-3" />
                                 <span>Demo</span>
+                              </a>
+                            )}
+                            {objective.id === 1 && project.pdf && (
+                              <a
+                                href={project.pdf}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center space-x-1 bg-blue-600 text-white px-3 py-2 text-sm hover:bg-blue-700 transition-colors duration-300"
+                              >
+                                <FileText className="w-3 h-3" />
+                                <span>PDF</span>
                               </a>
                             )}
                           </div>
