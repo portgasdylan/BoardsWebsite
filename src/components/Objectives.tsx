@@ -91,14 +91,14 @@ const Objectives: React.FC = () => {
       icon: <Database className="w-8 h-8" />,
       color: "bg-red-600",
       projects: [
-        // {
-        //   name: "Theme Park Database (MySQL)",
-        //   description: "Create a normalized schema with joins and useful queries.",
-        //   tech: ["MySQL"],
-        //   type: "Data Science",
-        //   github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
-        //   demo: null
-        // }, 
+        {
+          name: "Theme Park Database (MySQL)",
+          description: "Create a normalized schema with joins and useful queries.",
+          tech: ["MySQL"],
+          type: "Data Science",
+          github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
+          demo: null
+        },  
         {
           name: "To-Do List with Priority Sorting",
           description: "This task management app implements a data-driven solution by storing, processing, and transforming task data to dynamically control UI behavior, sorting, filtering, and persistence.",
