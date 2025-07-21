@@ -184,7 +184,7 @@ const Objectives: React.FC = () => {
           tech: ["MongoDB", "JavaScript", "HTML", "Css"],
           type: "Website",
           github: "https://github.com/FAIR-GAME-TM/Fair_Game-V2.0",
-          demo: null
+          demo: "https://youtu.be/blP0Mr-GUXo"
         },
       ]
     }
