@@ -34,7 +34,7 @@ const Objectives: React.FC = () => {
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
           demo: "https://youtu.be/GPpk6bh7kr0",
-          pdf: null
+          pdf: "public/CoPayDocumentation.pdf"
         },
         {
           name: "Portfolio Website",
