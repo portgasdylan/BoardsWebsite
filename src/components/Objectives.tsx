@@ -13,6 +13,7 @@ const Objectives: React.FC = () => {
         {
           name: "CoPay App",
           description: "Documented and analyzed the app's purpose, competitors, and features as part of my SIP.",
+          explanation: "This project shows how I planned out a real app from start to finish. I wrote down what problem it solves, looked at similar apps, and documented each step of building it. This proves I can analyze problems and design solutions properly.",
           tech: ["React", "TypeScript", "JavaScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
@@ -30,6 +31,7 @@ const Objectives: React.FC = () => {
         {
           name: "Genshin Impact Simulator",
           description: "Developed a character gacha simulation system with probability mechanics and user interaction.",
+          explanation: "I built this game step by step, first figuring out how gacha systems work, then designing the code structure, and finally testing it to make sure the probabilities worked correctly. This shows I can break down complex problems and build working solutions.",
           tech: ["C++"],
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
@@ -39,6 +41,7 @@ const Objectives: React.FC = () => {
         {
           name: "Portfolio Website",
           description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
+          explanation: "I planned this website by thinking about what visitors would want to see, sketched out the design, and built it piece by piece. I tested it on different devices to make sure it works everywhere. This shows I can design and build complete web solutions.",
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
@@ -56,6 +59,7 @@ const Objectives: React.FC = () => {
         {
           name: "CoPay App",
           description: "Built using JavaScript/TypeScript and VS Code integration.",
+          explanation: "This app uses both JavaScript and TypeScript, showing I can work with different programming languages. I built it in VS Code and also worked with React Native tools, proving I can use multiple development environments.",
           tech: ["React", "JavaScript", "TypeScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
@@ -64,6 +68,7 @@ const Objectives: React.FC = () => {
         {
           name: "M5Core2 IoT Display",
           description: "Developed in C++/Arduino for real-time sensor output and button integrations.",
+          explanation: "This project uses C++ and Arduino IDE, which are completely different from web development. I had to learn new tools and ways of coding for hardware instead of websites, showing I can adapt to different programming environments.",
           tech: ["C++"],
           type: "IoT",
           github: "https://github.com/portgasdylan/CSC230/blob/main/Lab8",
@@ -72,6 +77,7 @@ const Objectives: React.FC = () => {
         {
           name: "Portfolio Website",
           description: "Built using React/TypeScript in VS Code with modern development practices.",
+          explanation: "I used React and TypeScript together, plus modern tools like Tailwind CSS. I worked in VS Code with extensions and used Git for version control. This shows I can use professional development tools and workflows.",
           tech: ["React", "TypeScript", "Tailwind CSS"],
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
@@ -96,6 +102,7 @@ const Objectives: React.FC = () => {
         {
           name: "To-Do List with Priority Sorting",
           description: "This task management app implements a data-driven solution by storing, processing, and transforming task data to dynamically control UI behavior, sorting, filtering, and persistence.",
+          explanation: "This app takes user data (tasks) and uses it to make decisions about what to show on screen. It sorts tasks by priority, filters them by status, and saves everything so it remembers your tasks later. The data controls how the app behaves.",
           tech: ["HTML", "CSS", "Javascript"],
           type: "Program",
           github: "https://github.com/portgasdylan/ToDoList",
@@ -104,6 +111,7 @@ const Objectives: React.FC = () => {
         {
           name: "Fair Game Website",
           description: "Stored RFID-linked clothing data and implemented account-based access.",
+          explanation: "This website connects clothing items to student accounts using RFID data stored in a database. When students scan their cards, the system looks up their data and shows their clothes. The database information drives what each user can see and do.",
           tech: ["MongoDB", "JavaScript", "HTML", "Css"],
           type: "Website",
           github: "https://github.com/FAIR-GAME-TM/Fair_Game-V2.0",
@@ -120,6 +128,7 @@ const Objectives: React.FC = () => {
         {
           name: "CoPay App",
           description: "Designed for both mobile and web usage, enabling shared group payments.",
+          explanation: "I built this app to work on phones, tablets, and computers. Users can access it from any device and it looks good on all screen sizes. This shows I can make apps that work across different platforms and devices.",
           tech: ["React Native", "JavaScript", "TypeScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/CoPaySIP",
@@ -128,6 +137,7 @@ const Objectives: React.FC = () => {
         {
           name: "Vowel Learning App",
           description: "Educational mobile app teaching vowel pronunciation in both English and Spanish with interactive exercises.",
+          explanation: "This is a mobile-only app built with React Native that works on both iPhone and Android. It teaches vowels in two languages with touch interactions and audio. This proves I can build native mobile apps for multiple platforms.",
           tech: ["React Native", "JavaScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/VowelLearning",
@@ -144,6 +154,7 @@ const Objectives: React.FC = () => {
         {
           name: "Ninja vs Pirate Game",
           description: "Implemented class heirarchy with overriding methods and encapsulated properties.",
+          explanation: "This game uses classes for different character types (Ninja, Pirate) that inherit from a base Character class. Each character type has its own special abilities (polymorphism) while keeping health and stats private (encapsulation). This shows I understand OOP principles.",
           tech: ["C++"],
           type: "Application",
           github: "https://github.com/portgasdylan/CSC275/tree/main/NinjaVPirates",
@@ -152,6 +163,7 @@ const Objectives: React.FC = () => {
         {
           name: "Genshin Impact Simulator",
           description: "Built class hierarchy leveraging inheritance, encapsulation, abstraction, and polymorphism.",
+          explanation: "I created different character classes that all inherit from a base class but behave differently (polymorphism). Private variables keep character stats safe (encapsulation), and users don't need to know how the gacha system works internally (abstraction).",
           tech: ["C++"],
           type: "Game Simulation",
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
@@ -160,6 +172,7 @@ const Objectives: React.FC = () => {
         {
           name: "Banking App",
           description: "Created using multiple classes with proper OOP principles applied.",
+          explanation: "This app has separate classes for different account types (Checking, Savings) that inherit from a main Account class. Each account type has different rules for withdrawals and fees, but they all share basic account features. This demonstrates all four OOP principles working together.",
           tech: ["C++"],
           type: "Application",
           github: "https://github.com/portgasdylan/CSC275/tree/main/BankingApp",
@@ -176,6 +189,7 @@ const Objectives: React.FC = () => {
         {
           name: "To-Do List with Priority Sorting",
           description: "This project demonstrates the implementation and analysis of data structure techniques through object arrays, sorting algorithms, filtering, and persistent state management using serialization with localStorage",
+          explanation: "I used arrays to store task objects, implemented sorting algorithms to organize tasks by priority, and used filtering to show different task categories. I also used localStorage to save and load data, showing I understand how to work with different data structures.",
           tech: ["HTML", "CSS", "Javascript"],
           type: "Program",
           github: "https://github.com/portgasdylan/ToDoList",
@@ -184,6 +198,7 @@ const Objectives: React.FC = () => {
         {
           name: "Fair Game Website",
           description: "This web application implements and analyzes data structure techniques through MongoDB's schema design and JavaScript-based logic to manage user-linked scholar garments and access control.",
+          explanation: "I designed database schemas to organize student and clothing data efficiently. The website uses JavaScript objects and arrays to manage user sessions and clothing inventories. This shows I can choose the right data structures for different tasks.",
           tech: ["MongoDB", "JavaScript", "HTML", "Css"],
           type: "Website",
           github: "https://github.com/FAIR-GAME-TM/Fair_Game-V2.0",
@@ -248,6 +263,12 @@ const Objectives: React.FC = () => {
                           <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                             {project.description}
                           </p>
+                          
+                          <div className="bg-blue-50 border-l-4 border-blue-400 p-3 mb-4">
+                            <p className="text-blue-800 text-sm leading-relaxed">
+                              <strong>Why this fits:</strong> {project.explanation}
+                            </p>
+                          </div>
 
                           {/* Tech Stack */}
                           <div className="flex flex-wrap gap-2 mb-4">
