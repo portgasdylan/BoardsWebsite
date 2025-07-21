@@ -128,7 +128,7 @@ const Objectives: React.FC = () => {
           tech: ["React Native", "JavaScript"],
           type: "Mobile Application",
           github: "https://github.com/portgasdylan/VowelLearning",
-          demo: null
+          demo: "https://youtube.com/shorts/QkjAxAlicKc"
         },
       ]
     },
