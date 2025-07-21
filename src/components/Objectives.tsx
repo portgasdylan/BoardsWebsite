@@ -160,7 +160,7 @@ const Objectives: React.FC = () => {
           tech: ["C++"],
           type: "Application",
           github: "https://github.com/portgasdylan/CSC275/tree/main/BankingApp",
-          demo: null
+          demo: "https://youtu.be/ueUgcxxo-8Y"
         }
       ]
     },
