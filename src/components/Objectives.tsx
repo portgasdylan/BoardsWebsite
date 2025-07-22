@@ -46,7 +46,7 @@ const Objectives: React.FC = () => {
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
           demo: "https://dylanmaxwell.netlify.app/",
-          pdf: "/ER-Diagram-Documentation.md"
+          pdf: "/SDLC-Process-Documentation.md"
         }
       ]
     },
@@ -320,6 +320,17 @@ const Objectives: React.FC = () => {
                           </div>
                         </div>
                       ))}
+                      {project.pdf && (
+                        <a
+                          href={project.pdf}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center space-x-1 bg-blue-600 text-white px-3 py-2 text-sm hover:bg-blue-700 transition-colors duration-300"
+                        >
+                          <FileText className="w-3 h-3" />
+                          <span>PDF</span>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
