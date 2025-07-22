@@ -307,7 +307,7 @@ const Objectives: React.FC = () => {
                                 <span>Demo</span>
                               </a>
                             )}
-                            {objective.id === 1 && project.pdf && (
+                            {(objective.id === 1 || objective.id === 3) && project.pdf && (
                               <a
                                 href={project.pdf}
                                 target="_blank"
