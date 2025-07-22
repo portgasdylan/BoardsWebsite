@@ -98,7 +98,7 @@ const Objectives: React.FC = () => {
           tech: ["MySQL"],
           type: "Data Science",
           github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
-          demo: null
+          pdf: "/UniversalOrlandoThemeParkDatabaseDocumentation.pdf"
         },  
         {
           name: "To-Do List with Priority Sorting",
