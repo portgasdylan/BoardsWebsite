@@ -46,7 +46,7 @@ const Objectives: React.FC = () => {
           type: "Web Application",
           github: "https://github.com/portgasdylan/BoardsWebsite",
           demo: "https://dylanmaxwell.netlify.app/",
-          pdf: null
+          pdf: "/ER-Diagram-Documentation.md"
         }
       ]
     },
