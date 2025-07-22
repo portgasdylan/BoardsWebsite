@@ -100,15 +100,15 @@ const Objectives: React.FC = () => {
           github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
           pdf: "/UniversalOrlandoThemeParkDatabaseDocumentation.pdf"
         },  
-        {
-          name: "To-Do List with Priority Sorting",
-          description: "This task management app implements a data-driven solution by storing, processing, and transforming task data to dynamically control UI behavior, sorting, filtering, and persistence.",
-          explanation: "This app takes user data (tasks) and uses it to make decisions about what to show on screen. It sorts tasks by priority, filters them by status, and saves everything so it remembers your tasks later. The data controls how the app behaves.",
-          tech: ["HTML", "CSS", "Javascript"],
-          type: "Program",
-          github: "https://github.com/portgasdylan/ToDoList",
-          demo: "https://youtu.be/kKP6MIAWJbM"
-        },
+        // {
+        //   name: "To-Do List with Priority Sorting",
+        //   description: "This task management app implements a data-driven solution by storing, processing, and transforming task data to dynamically control UI behavior, sorting, filtering, and persistence.",
+        //   explanation: "This app takes user data (tasks) and uses it to make decisions about what to show on screen. It sorts tasks by priority, filters them by status, and saves everything so it remembers your tasks later. The data controls how the app behaves.",
+        //   tech: ["HTML", "CSS", "Javascript"],
+        //   type: "Program",
+        //   github: "https://github.com/portgasdylan/ToDoList",
+        //   demo: "https://youtu.be/kKP6MIAWJbM"
+        // }, 
         {
           name: "Fair Game Website",
           description: "Stored RFID-linked clothing data and implemented account-based access.",
