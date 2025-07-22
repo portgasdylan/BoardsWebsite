@@ -38,16 +38,7 @@ const Objectives: React.FC = () => {
           demo: "https://youtu.be/GPpk6bh7kr0",
           pdf: "/GenshinImpactSim.pdf"
         },
-        {
-          name: "Portfolio Website",
-          description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
-          explanation: "I planned this website by thinking about what visitors would want to see, sketched out the design, and built it piece by piece. I tested it on different devices to make sure it works everywhere. This shows I can design and build complete web solutions.",
-          tech: ["React", "TypeScript", "Tailwind CSS"],
-          type: "Web Application",
-          github: "https://github.com/portgasdylan/BoardsWebsite",
-          demo: "https://dylanmaxwell.netlify.app/",
-          pdf: "/SDLC-Process-Documentation.md"
-        }
+?
       ]
     },
     {
