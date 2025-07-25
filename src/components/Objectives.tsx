@@ -46,7 +46,7 @@ const Objectives: React.FC = () => {
           type: "Data Science",
           github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
           pdf: "/UniversalOrlandoThemeParkDatabaseDocumentation.pdf"
-        },  
+        } 
         // {
         //   name: "Portfolio Website",
         //   description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
