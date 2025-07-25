@@ -38,6 +38,15 @@ const Objectives: React.FC = () => {
           demo: "https://youtu.be/GPpk6bh7kr0",
           pdf: "/GenshinImpactSim.pdf"
         }
+        {
+          name: "Theme Park Database (MySQL)",
+          description: "Create a normalized schema with joins and useful queries.",
+          explanation: "This database project demonstrates data-driven solutions by creating a normalized relational schema that stores visitor, ride, employee, and ticket data. The system uses foreign keys to establish relationships between tables, implements CRUD operations (Create, Read, Update, Delete), and uses JOIN queries to combine data from multiple tables to answer business questions. The data structure drives decision-making about visitor access, employee assignments, and maintenance scheduling.",
+          tech: ["MySQL"],
+          type: "Data Science",
+          github: "https://github.com/portgasdylan/CSC211/blob/main/Theme%20Park%20DB/ThemeParkDB.sql",
+          pdf: "/UniversalOrlandoThemeParkDatabaseDocumentation.pdf"
+        },  
         // {
         //   name: "Portfolio Website",
         //   description: "Documented design process, analyzed user experience needs, and built a responsive showcase site.",
