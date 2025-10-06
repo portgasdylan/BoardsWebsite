@@ -37,7 +37,7 @@ const Objectives: React.FC = () => {
           github: "https://github.com/portgasdylan/CSC275/tree/main/GenshinImpactWishSim",
           demo: "https://youtu.be/GPpk6bh7kr0",
           pdf: "/GenshinImpactSim.pdf"
-        }
+        },
         {
           name: "Theme Park Database (MySQL)",
           description: "Create a normalized schema with joins and useful queries.",
