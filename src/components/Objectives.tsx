@@ -1,9 +1,9 @@
 import React from 'react';
-import { Code, Database, Smartphone, Globe, Layers, BarChart3, Github, ExternalLink, FileText } from 'lucide-react';
+import { Code, Database, Smartphone, Globe, Layers, BarChart3, Github, ExternalLink, FileText, Brain, TrendingUp, Shield } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 const Objectives: React.FC = () => {
-  const objectives = [
+  const csObjectives = [
     {
       id: 1,
       title: "Document a software development process to analyze a problem and to design, build and test software solutions.",
@@ -218,6 +218,51 @@ const Objectives: React.FC = () => {
     }
   ];
 
+  const dsObjectives = [
+    {
+      id: 1,
+      title: "Assess, structure, manage and implement large data sets derived from real-time sources.",
+      icon: <Database className="w-8 h-8" />,
+      color: "bg-blue-600",
+      projects: []
+    },
+    {
+      id: 2,
+      title: "Compile data from multiple sources, including data selection, data scrubbing and feature engineering, with an emphasis on tidy data and the tidyverse.",
+      icon: <Layers className="w-8 h-8" />,
+      color: "bg-green-600",
+      projects: []
+    },
+    {
+      id: 3,
+      title: "Apply statistical tests and tools appropriately to analyze data sets drawn from different types of sources (nature, humankind, organizations, etc.), making inferences and projections from the data.",
+      icon: <TrendingUp className="w-8 h-8" />,
+      color: "bg-blue-600",
+      projects: []
+    },
+    {
+      id: 4,
+      title: "Create visualizations of large data sets in ways that clarify understanding of their meaning and implications.",
+      icon: <BarChart3 className="w-8 h-8" />,
+      color: "bg-green-600",
+      projects: []
+    },
+    {
+      id: 5,
+      title: "Design and implement big data, artificial intelligence and statistical and visual analysis solutions that provide people and organizations with understanding, guidance and options drawn from the data.",
+      icon: <Brain className="w-8 h-8" />,
+      color: "bg-blue-600",
+      projects: []
+    },
+    {
+      id: 6,
+      title: "Demonstrate best practices regarding digital privacy and the ethical use of personal information.",
+      icon: <Shield className="w-8 h-8" />,
+      color: "bg-green-600",
+      projects: []
+    }
+  ];
+
   return (
     <section id="objectives" className="py-20 bg-white relative overflow-hidden">
       {/* Background Elements */}
@@ -227,6 +272,7 @@ const Objectives: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
+        {/* Computer Science Section */}
         <AnimatedSection className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
             CS DEGREE <span className="text-red-600">OBJECTIVES</span>
@@ -236,8 +282,8 @@ const Objectives: React.FC = () => {
           </p>
         </AnimatedSection>
 
-        <div className="space-y-16">
-          {objectives.map((objective, index) => (
+        <div className="space-y-16 mb-32">
+          {csObjectives.map((objective, index) => (
             <AnimatedSection key={objective.id} delay={index * 0.2}>
               <div className={`${index % 2 === 0 ? 'transform skew-y-1' : 'transform -skew-y-1'} transition-transform duration-300`}>
                 <div className="bg-gray-100 border-4 border-black shadow-2xl overflow-hidden">
@@ -338,13 +384,13 @@ const Objectives: React.FC = () => {
           ))}
         </div>
 
-        {/* Summary Panel */}
-        <AnimatedSection className="mt-20 text-center" delay={1.2}>
+        {/* CS Summary Panel */}
+        <AnimatedSection className="mt-20 text-center mb-32" delay={1.2}>
           <div className="bg-black text-white p-8 transform skew-y-2 border-4 border-black shadow-2xl inline-block max-w-4xl">
             <div className="transform -skew-y-2">
-              <h3 className="text-2xl font-bold mb-4">Learning Journey</h3>
+              <h3 className="text-2xl font-bold mb-4">CS Learning Journey</h3>
               <p className="mb-6 text-gray-300">
-                These projects demonstrate mastery of core computer science principles through practical application, 
+                These projects demonstrate mastery of core computer science principles through practical application,
                 showcasing technical depth across multiple domains and technologies.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
@@ -359,6 +405,157 @@ const Objectives: React.FC = () => {
                 <div className="bg-red-600 p-3">
                   <div className="font-bold">6</div>
                   <div>Degree Objectives</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
+
+        {/* Data Science Section */}
+        <AnimatedSection className="text-center mb-16" delay={0.2}>
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
+            DATA SCIENCE DEGREE <span className="text-blue-600">OBJECTIVES</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Building expertise in data analysis, visualization, and ethical data practices through comprehensive coursework
+          </p>
+        </AnimatedSection>
+
+        <div className="space-y-16">
+          {dsObjectives.map((objective, index) => (
+            <AnimatedSection key={objective.id} delay={index * 0.2}>
+              <div className={`${index % 2 === 0 ? 'transform skew-y-1' : 'transform -skew-y-1'} transition-transform duration-300`}>
+                <div className="bg-gray-100 border-4 border-black shadow-2xl overflow-hidden">
+                  <div className={`${index % 2 === 0 ? 'transform -skew-y-1' : 'transform skew-y-1'} p-8`}>
+                    {/* Objective Header */}
+                    <div className="flex items-start mb-8">
+                      <div className={`${objective.color} text-white p-4 mr-6 flex-shrink-0`}>
+                        {objective.icon}
+                      </div>
+                      <div>
+                        <h3 className="text-2xl font-bold text-black mb-4">
+                          Objective {objective.id}
+                        </h3>
+                        <p className="text-gray-700 text-lg leading-relaxed">
+                          {objective.title}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Projects Grid - Empty state for now */}
+                    {objective.projects.length === 0 ? (
+                      <div className="bg-white border-2 border-dashed border-gray-300 p-8 text-center">
+                        <p className="text-gray-500 text-lg">
+                          Projects coming soon as I progress through the Data Science program
+                        </p>
+                      </div>
+                    ) : (
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {objective.projects.map((project, projectIndex) => (
+                          <div key={projectIndex} className="bg-white border-2 border-gray-300 p-6 hover:border-blue-600 transition-colors duration-300 group">
+                            <div className="flex items-center justify-between mb-4">
+                              <h4 className="text-lg font-bold text-black group-hover:text-blue-600 transition-colors duration-300">
+                                {project.name}
+                              </h4>
+                              <span className="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">
+                                {project.type}
+                              </span>
+                            </div>
+
+                            <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                              {project.description}
+                            </p>
+
+                            {project.explanation && (
+                              <div className="bg-blue-50 border-l-4 border-blue-400 p-3 mb-4">
+                                <p className="text-blue-800 text-sm leading-relaxed">
+                                  <strong>Why this fits:</strong> {project.explanation}
+                                </p>
+                              </div>
+                            )}
+
+                            {/* Tech Stack */}
+                            {project.tech && (
+                              <div className="flex flex-wrap gap-2 mb-4">
+                                {project.tech.map((tech, techIndex) => (
+                                  <span
+                                    key={techIndex}
+                                    className="bg-gray-100 text-gray-800 px-2 py-1 text-xs font-medium border border-gray-300"
+                                  >
+                                    {tech}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+
+                            {/* Project Links */}
+                            <div className="flex flex-wrap gap-2">
+                              {project.github && (
+                                <a
+                                  href={project.github}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex items-center space-x-1 bg-black text-white px-3 py-2 text-sm hover:bg-gray-800 transition-colors duration-300"
+                                >
+                                  <Github className="w-3 h-3" />
+                                  <span>Code</span>
+                                </a>
+                              )}
+                              {project.demo && (
+                                <a
+                                  href={project.demo}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex items-center space-x-1 bg-blue-600 text-white px-3 py-2 text-sm hover:bg-blue-700 transition-colors duration-300"
+                                >
+                                  <ExternalLink className="w-3 h-3" />
+                                  <span>Demo</span>
+                                </a>
+                              )}
+                              {project.pdf && (
+                                <a
+                                  href={project.pdf}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex items-center space-x-1 bg-green-600 text-white px-3 py-2 text-sm hover:bg-green-700 transition-colors duration-300"
+                                >
+                                  <FileText className="w-3 h-3" />
+                                  <span>PDF</span>
+                                </a>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </AnimatedSection>
+          ))}
+        </div>
+
+        {/* DS Summary Panel */}
+        <AnimatedSection className="mt-20 text-center" delay={1.2}>
+          <div className="bg-gradient-to-r from-blue-600 to-green-600 text-white p-8 transform skew-y-2 border-4 border-black shadow-2xl inline-block max-w-4xl">
+            <div className="transform -skew-y-2">
+              <h3 className="text-2xl font-bold mb-4">Data Science Journey</h3>
+              <p className="mb-6">
+                Building a strong foundation in data science through rigorous coursework and practical applications.
+                Projects will be added as I progress through the program.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+                <div className="bg-white bg-opacity-20 p-3 backdrop-blur-sm">
+                  <div className="font-bold">In Progress</div>
+                  <div>Program Status</div>
+                </div>
+                <div className="bg-white bg-opacity-20 p-3 backdrop-blur-sm">
+                  <div className="font-bold">6</div>
+                  <div>Core Objectives</div>
+                </div>
+                <div className="bg-white bg-opacity-20 p-3 backdrop-blur-sm">
+                  <div className="font-bold">Coming Soon</div>
+                  <div>Projects</div>
                 </div>
               </div>
             </div>
