@@ -224,42 +224,132 @@ const Objectives: React.FC = () => {
       title: "Assess, structure, manage and implement large data sets derived from real-time sources.",
       icon: <Database className="w-8 h-8" />,
       color: "bg-blue-600",
-      projects: []
+      projects: [
+        {
+          name: "CSC338 Final - Maricopa Daily Mobility",
+          description: "Assessed and structured large-scale mobility data from real-time sources to analyze daily transportation patterns in Maricopa County.",
+          explanation: "This project involved working with real-time mobility data, requiring careful structuring and management of large datasets to extract meaningful patterns from daily transportation activities.",
+          tech: ["Python", "Pandas", "Data Analysis"],
+          type: "Data Analysis"
+        },
+        {
+          name: "CSC115 Final",
+          description: "Implemented data structures and algorithms to manage and process large datasets efficiently.",
+          explanation: "Demonstrated the ability to assess data requirements and implement appropriate data structures for managing large-scale information efficiently.",
+          tech: ["Python", "Data Structures"],
+          type: "Programming"
+        }
+      ]
     },
     {
       id: 2,
       title: "Compile data from multiple sources, including data selection, data scrubbing and feature engineering, with an emphasis on tidy data and the tidyverse.",
       icon: <Layers className="w-8 h-8" />,
       color: "bg-green-600",
-      projects: []
+      projects: [
+        {
+          name: "CSC338 Assignment 8 - Bank Marketing",
+          description: "Compiled and cleaned data from multiple sources, performing data scrubbing and feature engineering for bank marketing campaign analysis.",
+          explanation: "This project focused on the complete data pipeline - from gathering raw data from various sources to cleaning, transforming, and engineering features for analysis, following tidy data principles.",
+          tech: ["Python", "Pandas", "Data Cleaning"],
+          type: "Data Science"
+        },
+        {
+          name: "CSC115 Final",
+          description: "Processed and compiled data from multiple sources, applying data cleaning and transformation techniques.",
+          explanation: "Demonstrated data compilation skills by integrating information from various sources and preparing it for analysis through systematic cleaning and transformation.",
+          tech: ["Python", "Data Processing"],
+          type: "Programming"
+        }
+      ]
     },
     {
       id: 3,
       title: "Apply statistical tests and tools appropriately to analyze data sets drawn from different types of sources (nature, humankind, organizations, etc.), making inferences and projections from the data.",
       icon: <TrendingUp className="w-8 h-8" />,
       color: "bg-blue-600",
-      projects: []
+      projects: [
+        {
+          name: "CSC338 Assignment 4",
+          description: "Applied statistical tests and analytical tools to datasets from various sources, making data-driven inferences and projections.",
+          explanation: "This assignment required selecting and applying appropriate statistical methods to analyze diverse datasets, drawing meaningful conclusions and making projections based on the data.",
+          tech: ["Python", "Statistics", "Data Analysis"],
+          type: "Statistical Analysis"
+        },
+        {
+          name: "CSC338 Assignment 5",
+          description: "Conducted statistical analysis on datasets from different domains, performing hypothesis testing and predictive modeling.",
+          explanation: "Demonstrated proficiency in applying statistical tools to real-world datasets, making inferences about populations and projecting trends from sample data.",
+          tech: ["Python", "Statistical Testing"],
+          type: "Data Science"
+        }
+      ]
     },
     {
       id: 4,
       title: "Create visualizations of large data sets in ways that clarify understanding of their meaning and implications.",
       icon: <BarChart3 className="w-8 h-8" />,
       color: "bg-green-600",
-      projects: []
+      projects: [
+        {
+          name: "CSC338 Assignment 2",
+          description: "Created comprehensive visualizations of large datasets to communicate insights and patterns effectively.",
+          explanation: "This project emphasized creating clear, meaningful visualizations that help stakeholders understand complex data patterns and their implications for decision-making.",
+          tech: ["Python", "Matplotlib", "Seaborn", "Data Visualization"],
+          type: "Data Visualization"
+        },
+        {
+          name: "CSC338 Final - Maricopa Daily Mobility",
+          description: "Developed interactive visualizations to display mobility patterns and trends across Maricopa County.",
+          explanation: "Created visual representations of large-scale mobility data that clarified daily transportation patterns, making complex datasets accessible and understandable.",
+          tech: ["Python", "Data Visualization", "Geographic Data"],
+          type: "Data Analysis"
+        }
+      ]
     },
     {
       id: 5,
       title: "Design and implement big data, artificial intelligence and statistical and visual analysis solutions that provide people and organizations with understanding, guidance and options drawn from the data.",
       icon: <Brain className="w-8 h-8" />,
       color: "bg-blue-600",
-      projects: []
+      projects: [
+        {
+          name: "CSC338 Assignment 8 - Bank Marketing",
+          description: "Designed and implemented a comprehensive analytical solution for bank marketing campaigns, providing actionable insights.",
+          explanation: "This project integrated statistical analysis, machine learning, and visualization to create a complete solution that helps organizations understand customer behavior and make data-driven marketing decisions.",
+          tech: ["Python", "Machine Learning", "Analytics"],
+          type: "Data Science"
+        },
+        {
+          name: "CSC338 Assignment 5",
+          description: "Developed statistical and visual analysis solutions to provide organizational guidance based on data insights.",
+          explanation: "Created end-to-end analytical solutions that transform raw data into actionable recommendations, demonstrating the full data science pipeline from analysis to decision support.",
+          tech: ["Python", "Statistical Modeling", "Business Intelligence"],
+          type: "Applied Analytics"
+        }
+      ]
     },
     {
       id: 6,
       title: "Demonstrate best practices regarding digital privacy and the ethical use of personal information.",
       icon: <Shield className="w-8 h-8" />,
       color: "bg-green-600",
-      projects: []
+      projects: [
+        {
+          name: "CSC338 Assignment 11",
+          description: "Implemented best practices for handling sensitive data, including privacy protection and ethical data usage protocols.",
+          explanation: "This assignment focused on understanding and applying ethical frameworks for data science, including proper handling of personal information, data anonymization, and privacy-preserving techniques.",
+          tech: ["Python", "Data Privacy", "Ethics"],
+          type: "Data Ethics"
+        },
+        {
+          name: "CSC338 Assignment 7",
+          description: "Analyzed and implemented privacy-preserving techniques in data analysis workflows.",
+          explanation: "Demonstrated understanding of digital privacy principles by implementing data protection measures and ethical guidelines when working with personal information.",
+          tech: ["Python", "Privacy Protection"],
+          type: "Data Science"
+        }
+      ]
     }
   ];
 
@@ -541,21 +631,21 @@ const Objectives: React.FC = () => {
             <div className="transform -skew-y-2">
               <h3 className="text-2xl font-bold mb-4">Data Science Journey</h3>
               <p className="mb-6">
-                Building a strong foundation in data science through rigorous coursework and practical applications.
-                Projects will be added as I progress through the program.
+                Building expertise in data science through hands-on projects covering statistical analysis,
+                data visualization, machine learning, and ethical data practices.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
                 <div className="bg-white bg-opacity-20 p-3 backdrop-blur-sm">
-                  <div className="font-bold">In Progress</div>
-                  <div>Program Status</div>
+                  <div className="font-bold">12</div>
+                  <div>Projects</div>
                 </div>
                 <div className="bg-white bg-opacity-20 p-3 backdrop-blur-sm">
                   <div className="font-bold">6</div>
                   <div>Core Objectives</div>
                 </div>
                 <div className="bg-white bg-opacity-20 p-3 backdrop-blur-sm">
-                  <div className="font-bold">Coming Soon</div>
-                  <div>Projects</div>
+                  <div className="font-bold">Python</div>
+                  <div>Primary Language</div>
                 </div>
               </div>
             </div>
