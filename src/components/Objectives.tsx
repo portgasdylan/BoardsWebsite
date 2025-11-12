@@ -333,7 +333,8 @@ const Objectives: React.FC = () => {
           description: "Developed statistical and visual analysis solutions to provide organizational guidance based on data insights.",
           explanation: "Created end-to-end analytical solutions that transform raw data into actionable recommendations, demonstrating the full data science pipeline from analysis to decision support.",
           tech: ["Python", "Statistical Modeling", "Business Intelligence"],
-          type: "Applied Analytics"
+          type: "Applied Analytics",
+          colab: "https://colab.research.google.com/drive/18AQQXaGnI75ZLu_yHKJfAQ63XxYVmzCo?usp=sharing"
         }
       ]
     },
