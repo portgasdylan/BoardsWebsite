@@ -128,26 +128,26 @@ const CoPay: React.FC = () => {
               </div>
             </div>
 
-            {/* Media Placeholder */}
+            {/* Video Demo */}
             <div className="bg-black p-8 transform skew-y-1 border-4 border-black shadow-2xl">
               <div className="transform -skew-y-1">
                 <h4 className="text-xl font-bold text-white mb-6 flex items-center">
                   <Play className="w-6 h-6 mr-2 text-red-500" />
                   Project Demo
                 </h4>
-                
-                {/* Video/GIF Placeholder */}
-                <div className="bg-gray-800 border-2 border-gray-600 h-48 flex items-center justify-center mb-4 relative overflow-hidden">
-                  <div className="text-center">
-                    <Play className="w-12 h-12 text-red-500 mx-auto mb-2" />
-                    <p className="text-gray-400">Demo Video/GIF</p>
-                    <p className="text-gray-500 text-sm">Coming Soon</p>
-                  </div>
-                  
-                  {/* Animated border effect */}
-                  <div className="absolute inset-0 border-2 border-red-600 opacity-20 animate-pulse"></div>
+
+                {/* YouTube Video Embed */}
+                <div className="relative pb-[56.25%] h-0 overflow-hidden mb-4 border-2 border-gray-600">
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/NvmQy0GDOXQ"
+                    title="CoPay Demo Video"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                 </div>
-                
+
                 <p className="text-gray-300 text-sm text-center">
                   Interactive demonstration of CoPay's core functionality and user interface
                 </p>
