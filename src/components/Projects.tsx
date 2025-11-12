@@ -1,36 +1,45 @@
 import React from 'react';
-import { Github, ExternalLink, Code, Smartphone, Globe, Database } from 'lucide-react';
+import { Github, ExternalLink, Code, Smartphone, Globe, Database, BookOpen } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: "CSC115 Final Project",
+      description: "Python data analysis project demonstrating core programming concepts, data structures, and analytical techniques learned throughout the course.",
+      tech: ["Python", "Jupyter", "Data Analysis"],
+      icon: <BookOpen className="w-6 h-6" />,
+      color: "bg-red-600",
+      link: "https://colab.research.google.com/drive/1kn_-okiqHDiVPswE65a41biYMJ4i4qBr?usp=sharing",
+      linkType: "colab"
+    },
+    {
       title: "Manga Reader App",
       description: "A full-stack React application for reading manga online with user authentication, bookmarks, and progress tracking.",
       tech: ["React", "Node.js", "MongoDB", "Express"],
       icon: <Smartphone className="w-6 h-6" />,
-      color: "bg-red-600"
+      color: "bg-black"
     },
     {
       title: "Portfolio Website",
       description: "A responsive manga-themed portfolio showcasing my projects and skills with modern design and animations.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       icon: <Globe className="w-6 h-6" />,
-      color: "bg-black"
+      color: "bg-red-600"
     },
     {
       title: "Data Visualization Tool",
       description: "Interactive dashboard for visualizing complex datasets with charts, graphs, and real-time updates.",
       tech: ["Python", "D3.js", "Flask", "PostgreSQL"],
       icon: <Database className="w-6 h-6" />,
-      color: "bg-red-600"
+      color: "bg-black"
     },
     {
       title: "Code Snippet Manager",
       description: "A desktop application for organizing and managing code snippets with syntax highlighting and search functionality.",
       tech: ["Electron", "JavaScript", "SQLite", "CSS"],
       icon: <Code className="w-6 h-6" />,
-      color: "bg-black"
+      color: "bg-red-600"
     }
   ];
 
@@ -85,14 +94,28 @@ const Projects: React.FC = () => {
 
                     {/* Project Links */}
                     <div className="flex space-x-4">
-                      <button className="flex items-center space-x-2 bg-black text-white px-4 py-2 hover:bg-gray-800 transition-colors duration-300">
-                        <Github className="w-4 h-4" />
-                        <span>Code</span>
-                      </button>
-                      <button className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 hover:bg-red-700 transition-colors duration-300">
-                        <ExternalLink className="w-4 h-4" />
-                        <span>Demo</span>
-                      </button>
+                      {project.linkType === 'colab' ? (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 hover:bg-red-700 transition-colors duration-300"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                          <span>View Notebook</span>
+                        </a>
+                      ) : (
+                        <>
+                          <button className="flex items-center space-x-2 bg-black text-white px-4 py-2 hover:bg-gray-800 transition-colors duration-300">
+                            <Github className="w-4 h-4" />
+                            <span>Code</span>
+                          </button>
+                          <button className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 hover:bg-red-700 transition-colors duration-300">
+                            <ExternalLink className="w-4 h-4" />
+                            <span>Demo</span>
+                          </button>
+                        </>
+                      )}
                     </div>
                   </div>
                 </div>
