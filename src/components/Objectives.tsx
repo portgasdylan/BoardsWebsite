@@ -357,7 +357,8 @@ const Objectives: React.FC = () => {
           description: "Analyzed and implemented privacy-preserving techniques in data analysis workflows.",
           explanation: "Demonstrated understanding of digital privacy principles by implementing data protection measures and ethical guidelines when working with personal information.",
           tech: ["Python", "Privacy Protection"],
-          type: "Data Science"
+          type: "Data Science",
+          colab: "https://colab.research.google.com/drive/1iEdIdlxYXUcHxpOpU4HrUBOIVRzrvmOn?usp=sharing"
         }
       ]
     }
