@@ -350,7 +350,8 @@ const Objectives: React.FC = () => {
           description: "Implemented best practices for handling sensitive data, including privacy protection and ethical data usage protocols.",
           explanation: "This assignment focused on understanding and applying ethical frameworks for data science, including proper handling of personal information, data anonymization, and privacy-preserving techniques.",
           tech: ["Python", "Data Privacy", "Ethics"],
-          type: "Data Ethics"
+          type: "Data Ethics",
+          colab: "https://colab.research.google.com/drive/1TMfh-gveZtYYA4kSxn9AaASRcXOUKoRv?usp=sharing"
         },
         {
           name: "CSC338 Assignment 7",
