@@ -254,7 +254,8 @@ const Objectives: React.FC = () => {
           description: "Compiled and cleaned data from multiple sources, performing data scrubbing and feature engineering for bank marketing campaign analysis.",
           explanation: "This project focused on the complete data pipeline - from gathering raw data from various sources to cleaning, transforming, and engineering features for analysis, following tidy data principles.",
           tech: ["Python", "Pandas", "Data Cleaning"],
-          type: "Data Science"
+          type: "Data Science",
+          colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
         },
         {
           name: "CSC115 Final",
@@ -322,7 +323,8 @@ const Objectives: React.FC = () => {
           description: "Designed and implemented a comprehensive analytical solution for bank marketing campaigns, providing actionable insights.",
           explanation: "This project integrated statistical analysis, machine learning, and visualization to create a complete solution that helps organizations understand customer behavior and make data-driven marketing decisions.",
           tech: ["Python", "Machine Learning", "Analytics"],
-          type: "Data Science"
+          type: "Data Science",
+          colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
         },
         {
           name: "CSC338 Assignment 5",
