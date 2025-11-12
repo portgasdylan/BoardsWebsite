@@ -514,14 +514,16 @@ const Objectives: React.FC = () => {
         </AnimatedSection>
 
         {/* Data Science Section */}
-        <AnimatedSection className="text-center mb-16" delay={0.2}>
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
-            DATA SCIENCE DEGREE <span className="text-blue-600">OBJECTIVES</span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Building expertise in data analysis, visualization, and ethical data practices through comprehensive coursework
-          </p>
-        </AnimatedSection>
+        <div id="objectives-ds">
+          <AnimatedSection className="text-center mb-16" delay={0.2}>
+            <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
+              DATA SCIENCE DEGREE <span className="text-blue-600">OBJECTIVES</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Building expertise in data analysis, visualization, and ethical data practices through comprehensive coursework
+            </p>
+          </AnimatedSection>
+        </div>
 
         <div className="space-y-16">
           {dsObjectives.map((objective, index) => (
