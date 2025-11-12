@@ -230,7 +230,8 @@ const Objectives: React.FC = () => {
           description: "Assessed and structured large-scale mobility data from real-time sources to analyze daily transportation patterns in Maricopa County.",
           explanation: "This project involved working with real-time mobility data, requiring careful structuring and management of large datasets to extract meaningful patterns from daily transportation activities.",
           tech: ["Python", "Pandas", "Data Analysis"],
-          type: "Data Analysis"
+          type: "Data Analysis",
+          colab: "https://colab.research.google.com/drive/1Ftx_WE4VEK-8isi_OpAWi8G9-Vd_G6D0?usp=sharing"
         },
         {
           name: "CSC115 Final",
@@ -305,7 +306,8 @@ const Objectives: React.FC = () => {
           description: "Developed interactive visualizations to display mobility patterns and trends across Maricopa County.",
           explanation: "Created visual representations of large-scale mobility data that clarified daily transportation patterns, making complex datasets accessible and understandable.",
           tech: ["Python", "Data Visualization", "Geographic Data"],
-          type: "Data Analysis"
+          type: "Data Analysis",
+          colab: "https://colab.research.google.com/drive/1Ftx_WE4VEK-8isi_OpAWi8G9-Vd_G6D0?usp=sharing"
         }
       ]
     },
