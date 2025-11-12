@@ -302,7 +302,8 @@ const Objectives: React.FC = () => {
           description: "Created comprehensive visualizations of large datasets to communicate insights and patterns effectively.",
           explanation: "This project emphasized creating clear, meaningful visualizations that help stakeholders understand complex data patterns and their implications for decision-making.",
           tech: ["Python", "Matplotlib", "Seaborn", "Data Visualization"],
-          type: "Data Visualization"
+          type: "Data Visualization",
+          colab: "https://colab.research.google.com/drive/11VAGgFTFtBy6jbK5pTHLA7TlMH6F_M7r?usp=sharing"
         },
         {
           name: "CSC338 Final - Maricopa Daily Mobility",
