@@ -278,14 +278,16 @@ const Objectives: React.FC = () => {
           description: "Applied statistical tests and analytical tools to datasets from various sources, making data-driven inferences and projections.",
           explanation: "This assignment required selecting and applying appropriate statistical methods to analyze diverse datasets, drawing meaningful conclusions and making projections based on the data.",
           tech: ["Python", "Statistics", "Data Analysis"],
-          type: "Statistical Analysis"
+          type: "Statistical Analysis",
+          colab: "https://colab.research.google.com/drive/1uovHsMEtGBXt4AZ1ykRNvW-sNcWyZxLw?usp=sharing"
         },
         {
           name: "CSC338 Assignment 3",
           description: "Conducted statistical analysis on datasets from different domains, performing hypothesis testing and predictive modeling.",
           explanation: "Demonstrated proficiency in applying statistical tools to real-world datasets, making inferences about populations and projecting trends from sample data.",
           tech: ["Python", "Statistical Testing"],
-          type: "Data Science"
+          type: "Data Science",
+          colab: "https://colab.research.google.com/drive/18AQQXaGnI75ZLu_yHKJfAQ63XxYVmzCo?usp=sharing"
         }
       ]
     },
