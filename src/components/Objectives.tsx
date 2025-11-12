@@ -327,7 +327,7 @@ const Objectives: React.FC = () => {
           colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
         },
         {
-          name: "CSC338 Assignment 5",
+          name: "CSC338 Assignment 3",
           description: "Developed statistical and visual analysis solutions to provide organizational guidance based on data insights.",
           explanation: "Created end-to-end analytical solutions that transform raw data into actionable recommendations, demonstrating the full data science pipeline from analysis to decision support.",
           tech: ["Python", "Statistical Modeling", "Business Intelligence"],
