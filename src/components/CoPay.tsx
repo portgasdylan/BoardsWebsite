@@ -64,12 +64,17 @@ const CoPay: React.FC = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <button className="flex items-center space-x-2 bg-white text-black px-4 py-2 font-semibold hover:bg-gray-100 transition-colors duration-300">
-                    <Github className="w-4 h-4" />
-                    <span>View Code</span>
-                  </button>
                   <a
                     href="https://github.com/portgasdylan/CoPaySIP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 bg-white text-black px-4 py-2 font-semibold hover:bg-gray-100 transition-colors duration-300"
+                  >
+                    <Github className="w-4 h-4" />
+                    <span>View Code</span>
+                  </a>
+                  <a
+                    href="https://youtube.com/shorts/2SgTuvY-Mdw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-white text-black px-4 py-2 font-semibold hover:bg-gray-100 transition-colors duration-300"
