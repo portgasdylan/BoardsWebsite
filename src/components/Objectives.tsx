@@ -281,7 +281,7 @@ const Objectives: React.FC = () => {
           type: "Statistical Analysis"
         },
         {
-          name: "CSC338 Assignment 5",
+          name: "CSC338 Assignment 3",
           description: "Conducted statistical analysis on datasets from different domains, performing hypothesis testing and predictive modeling.",
           explanation: "Demonstrated proficiency in applying statistical tools to real-world datasets, making inferences about populations and projecting trends from sample data.",
           tech: ["Python", "Statistical Testing"],
