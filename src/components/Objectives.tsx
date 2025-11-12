@@ -237,7 +237,8 @@ const Objectives: React.FC = () => {
           description: "Implemented data structures and algorithms to manage and process large datasets efficiently.",
           explanation: "Demonstrated the ability to assess data requirements and implement appropriate data structures for managing large-scale information efficiently.",
           tech: ["Python", "Data Structures"],
-          type: "Programming"
+          type: "Programming",
+          colab: "https://colab.research.google.com/drive/1kn_-okiqHDiVPswE65a41biYMJ4i4qBr?usp=sharing"
         }
       ]
     },
@@ -259,7 +260,8 @@ const Objectives: React.FC = () => {
           description: "Processed and compiled data from multiple sources, applying data cleaning and transformation techniques.",
           explanation: "Demonstrated data compilation skills by integrating information from various sources and preparing it for analysis through systematic cleaning and transformation.",
           tech: ["Python", "Data Processing"],
-          type: "Programming"
+          type: "Programming",
+          colab: "https://colab.research.google.com/drive/1kn_-okiqHDiVPswE65a41biYMJ4i4qBr?usp=sharing"
         }
       ]
     },
@@ -580,6 +582,17 @@ const Objectives: React.FC = () => {
 
                             {/* Project Links */}
                             <div className="flex flex-wrap gap-2">
+                              {project.colab && (
+                                <a
+                                  href={project.colab}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex items-center space-x-1 bg-orange-500 text-white px-3 py-2 text-sm hover:bg-orange-600 transition-colors duration-300"
+                                >
+                                  <ExternalLink className="w-3 h-3" />
+                                  <span>View Notebook</span>
+                                </a>
+                              )}
                               {project.github && (
                                 <a
                                   href={project.github}
