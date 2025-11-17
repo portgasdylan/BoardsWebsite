@@ -227,16 +227,16 @@ const Objectives: React.FC = () => {
       projects: [
         {
           name: "CSC338 Final - Maricopa Daily Mobility",
-          description: "Assessed and structured large-scale mobility data from real-time sources to analyze daily transportation patterns in Maricopa County.",
-          explanation: "This project involved working with real-time mobility data, requiring careful structuring and management of large datasets to extract meaningful patterns from daily transportation activities.",
+          description: "In this project, I worked with a daily mobility dataset for Maricopa County, Arizona that tracks how many people stayed home, how many left home, and how many trips were made each day. I cleaned the data, checked for missing values, explored patterns using simple charts, handled outliers, and then built a logistic regression model to predict whether a day had high or low mobility.",
+          explanation: "This project fits the objective because I took a large, time-based mobility dataset (originally collected in near real time), evaluated its quality, structured it into useful features, and managed issues like outliers. I then implemented the data in a working model that makes predictions about mobility levels, showing that I can turn real-time style data into something organized, usable, and actionable.",
           tech: ["Python", "Pandas", "Data Analysis"],
           type: "Data Analysis",
           colab: "https://colab.research.google.com/drive/1Ftx_WE4VEK-8isi_OpAWi8G9-Vd_G6D0?usp=sharing"
         },
         {
           name: "CSC115 Final",
-          description: "Implemented data structures and algorithms to manage and process large datasets efficiently.",
-          explanation: "Demonstrated the ability to assess data requirements and implement appropriate data structures for managing large-scale information efficiently.",
+          description: "In this project, I used a Pokémon stats dataset with many rows and columns to predict whether a Pokémon is Legendary or not. I cleaned and normalized the column names, handled missing values, and removed duplicate rows. I explored the data with summary statistics and plots, looking at things like stat distributions, type counts, and how speed differs between Legendary and non-Legendary Pokémon. I then engineered features such as whether a Pokémon has one or two types, built a feature matrix with both numeric stats and one-hot encoded types, and trained two models, Logistic Regression and Random Forest, to classify Legendaries. I compared their performance using accuracy, F1, ROC AUC, and a confusion matrix.",
+          explanation: "This project fits the objective because it shows that I can take a large, multi-feature dataset, evaluate its quality, and turn it into a clean, well-structured feature set ready for modeling. I manage issues like missing values, duplicate entries, class balance, and mixed numeric/categorical data, then implement the dataset in two different machine learning models and interpret their results. The same workflow cleaning, structuring, feature building, and model deployment can be applied to real-time or continuously updated game data, demonstrating my ability to handle and use complex datasets in a practical way.",
           tech: ["Python", "Data Structures"],
           type: "Programming",
           colab: "https://colab.research.google.com/drive/1kn_-okiqHDiVPswE65a41biYMJ4i4qBr?usp=sharing"
@@ -251,15 +251,15 @@ const Objectives: React.FC = () => {
       projects: [
         {
           name: "CSC338 Assignment 8 - Bank Marketing",
-          description: "Compiled and cleaned data from multiple sources, performing data scrubbing and feature engineering for bank marketing campaign analysis.",
-          explanation: "This project focused on the complete data pipeline - from gathering raw data from various sources to cleaning, transforming, and engineering features for analysis, following tidy data principles.",
+          description: "This project uses the bank marketing dataset to predict whether a client will subscribe to a term deposit. I load and clean the data, convert “yes”/“no” values to numbers, and build different feature sets for each model. I then train and test several classifiers, including KNN, Logistic Regression, and a Decision Tree, compare their accuracy and confusion matrices, and look at which features are most important for the predictions.",
+          explanation: "This project fits the objective because I take a raw bank marketing dataset and turn it into clean, well structured data ready for modeling. I select only the columns I need for each model, convert text values like “yes”/“no” into numeric form, scale the numeric features, and create new features using one hot encoding for the categorical variables. The final tables are tidy, with each column as a single variable and each row as a single customer, showing that I can organize and prepare data in a way that matches tidy data principles.",
           tech: ["Python", "Pandas", "Data Cleaning"],
           type: "Data Science",
           colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
         },
         {
           name: "CSC115 Final",
-          description: "Processed and compiled data from multiple sources, applying data cleaning and transformation techniques.",
+          description: "In this project, I used a Pokémon stats dataset with many rows and columns to predict whether a Pokémon is Legendary or not. I cleaned and normalized the column names, handled missing values, and removed duplicate rows. I explored the data with summary statistics and plots, looking at things like stat distributions, type counts, and how speed differs between Legendary and non-Legendary Pokémon. I then engineered features such as whether a Pokémon has one or two types, built a feature matrix with both numeric stats and one-hot encoded types, and trained two models, Logistic Regression and Random Forest, to classify Legendaries. I compared their performance using accuracy, F1, ROC AUC, and a confusion matrix.",
           explanation: "Demonstrated data compilation skills by integrating information from various sources and preparing it for analysis through systematic cleaning and transformation.",
           tech: ["Python", "Data Processing"],
           type: "Programming",
@@ -323,8 +323,8 @@ const Objectives: React.FC = () => {
       projects: [
         {
           name: "CSC338 Assignment 8 - Bank Marketing",
-          description: "Designed and implemented a comprehensive analytical solution for bank marketing campaigns, providing actionable insights.",
-          explanation: "This project integrated statistical analysis, machine learning, and visualization to create a complete solution that helps organizations understand customer behavior and make data-driven marketing decisions.",
+          description: "This project uses the bank marketing dataset to predict whether a client will subscribe to a term deposit. I load and clean the data, convert “yes”/“no” values to numbers, and build different feature sets for each model. I then train and test several classifiers, including KNN, Logistic Regression, and a Decision Tree, compare their accuracy and confusion matrices, and look at which features are most important for the predictions.",
+          explanation: "This project fits the objective because I build and compare several machine learning models to answer a real decision-making question: which clients are likely to subscribe to a term deposit. I use statistical measures and metrics (accuracy, precision/recall, confusion matrices, feature importance) to evaluate KNN, Logistic Regression, and a Decision Tree, and I turn the raw bank data into clear predictions and insights about which factors matter most. This gives a bank practical guidance on who to target and what patterns exist in the data, showing that I can turn complex data and AI models into useful options and understanding for an organization.",
           tech: ["Python", "Machine Learning", "Analytics"],
           type: "Data Science",
           colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
