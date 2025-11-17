@@ -226,19 +226,19 @@ const Objectives: React.FC = () => {
       color: "bg-blue-600",
       projects: [
         {
-          name: "CSC338 Final - Maricopa Daily Mobility",
+          name: "Maricopa Daily Mobility Data",
           description: "In this project, I worked with a daily mobility dataset for Maricopa County, Arizona that tracks how many people stayed home, how many left home, and how many trips were made each day. I cleaned the data, checked for missing values, explored patterns using simple charts, handled outliers, and then built a logistic regression model to predict whether a day had high or low mobility.",
           explanation: "This project fits the objective because I took a large, time-based mobility dataset (originally collected in near real time), evaluated its quality, structured it into useful features, and managed issues like outliers. I then implemented the data in a working model that makes predictions about mobility levels, showing that I can turn real-time style data into something organized, usable, and actionable.",
-          tech: ["Python", "Pandas", "Data Analysis"],
-          type: "Data Analysis",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/1Ftx_WE4VEK-8isi_OpAWi8G9-Vd_G6D0?usp=sharing"
         },
         {
-          name: "CSC115 Final",
+          name: "Pokemon Data Project",
           description: "In this project, I used a Pokémon stats dataset with many rows and columns to predict whether a Pokémon is Legendary or not. I cleaned and normalized the column names, handled missing values, and removed duplicate rows. I explored the data with summary statistics and plots, looking at things like stat distributions, type counts, and how speed differs between Legendary and non-Legendary Pokémon. I then engineered features such as whether a Pokémon has one or two types, built a feature matrix with both numeric stats and one-hot encoded types, and trained two models, Logistic Regression and Random Forest, to classify Legendaries. I compared their performance using accuracy, F1, ROC AUC, and a confusion matrix.",
           explanation: "This project fits the objective because it shows that I can take a large, multi-feature dataset, evaluate its quality, and turn it into a clean, well-structured feature set ready for modeling. I manage issues like missing values, duplicate entries, class balance, and mixed numeric/categorical data, then implement the dataset in two different machine learning models and interpret their results. The same workflow cleaning, structuring, feature building, and model deployment can be applied to real-time or continuously updated game data, demonstrating my ability to handle and use complex datasets in a practical way.",
-          tech: ["Python", "Data Structures"],
-          type: "Programming",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/1kn_-okiqHDiVPswE65a41biYMJ4i4qBr?usp=sharing"
         }
       ]
@@ -250,19 +250,19 @@ const Objectives: React.FC = () => {
       color: "bg-green-600",
       projects: [
         {
-          name: "CSC338 Assignment 8 - Bank Marketing",
+          name: "Bank Marketing",
           description: "This project uses the bank marketing dataset to predict whether a client will subscribe to a term deposit. I load and clean the data, convert “yes”/“no” values to numbers, and build different feature sets for each model. I then train and test several classifiers, including KNN, Logistic Regression, and a Decision Tree, compare their accuracy and confusion matrices, and look at which features are most important for the predictions.",
           explanation: "This project fits the objective because I take a raw bank marketing dataset and turn it into clean, well structured data ready for modeling. I select only the columns I need for each model, convert text values like “yes”/“no” into numeric form, scale the numeric features, and create new features using one hot encoding for the categorical variables. The final tables are tidy, with each column as a single variable and each row as a single customer, showing that I can organize and prepare data in a way that matches tidy data principles.",
-          tech: ["Python", "Pandas", "Data Cleaning"],
+          tech: ["Python"],
           type: "Data Science",
           colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
         },
         {
-          name: "CSC115 Final",
+          name: "Pokemon Data Project",
           description: "In this project, I used a Pokémon stats dataset with many rows and columns to predict whether a Pokémon is Legendary or not. I cleaned and normalized the column names, handled missing values, and removed duplicate rows. I explored the data with summary statistics and plots, looking at things like stat distributions, type counts, and how speed differs between Legendary and non-Legendary Pokémon. I then engineered features such as whether a Pokémon has one or two types, built a feature matrix with both numeric stats and one-hot encoded types, and trained two models, Logistic Regression and Random Forest, to classify Legendaries. I compared their performance using accuracy, F1, ROC AUC, and a confusion matrix.",
-          explanation: "Demonstrated data compilation skills by integrating information from various sources and preparing it for analysis through systematic cleaning and transformation.",
-          tech: ["Python", "Data Processing"],
-          type: "Programming",
+          explanation: "This project fits the objective because I take a raw Pokémon stats file and turn it into a clean, model-ready dataset. I normalize inconsistent column names, standardize text values, handle missing stats with median fills, and drop duplicate rows. Then I select the columns I need and engineer new features like an IsDualType flag and one-hot encoded type and generation variables, ending with a tidy table where each row is one Pokémon and each column is a single, well-defined feature mirroring the same tidy data workflow emphasized in the tidyverse.",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/1kn_-okiqHDiVPswE65a41biYMJ4i4qBr?usp=sharing"
         }
       ]
@@ -275,17 +275,17 @@ const Objectives: React.FC = () => {
       projects: [
         {
           name: "CSC338 Assignment 4",
-          description: "Applied statistical tests and analytical tools to datasets from various sources, making data-driven inferences and projections.",
-          explanation: "This assignment required selecting and applying appropriate statistical methods to analyze diverse datasets, drawing meaningful conclusions and making projections based on the data.",
-          tech: ["Python", "Statistics", "Data Analysis"],
-          type: "Statistical Analysis",
+          description: "In this project, I analyze several real-world style data sets using hypothesis testing. I use one-sample t-tests to check a protein bar company’s claim and a university’s claimed average GPA, and a two-sample t-test to compare test scores between two teaching methods. I also calculate a confidence interval and answer conceptual questions about t-tests and confidence intervals to show I understand how to interpret the results.",
+          explanation: "This project fits the objective because I use formal hypothesis tests (like one-sample and two-sample t-tests) on real-world style data about people and organizations, such as protein bar nutrition, student GPAs, and teaching methods. I calculate test statistics and p-values, then interpret them to decide whether to reject or fail to reject the null hypothesis, making clear inferences about the populations those samples represent.",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/1uovHsMEtGBXt4AZ1ykRNvW-sNcWyZxLw?usp=sharing"
         },
         {
-          name: "CSC338 Assignment 3",
-          description: "Conducted statistical analysis on datasets from different domains, performing hypothesis testing and predictive modeling.",
-          explanation: "Demonstrated proficiency in applying statistical tools to real-world datasets, making inferences about populations and projecting trends from sample data.",
-          tech: ["Python", "Statistical Testing"],
+          name: "Real-World Probability Distributions and Decision Analysis",
+          description: "In this assignment, I work with different probability tools and distributions in realistic scenarios. I use the binomial distribution to find the probabilities of employees completing a training course, match everyday situations to the correct distribution type, and apply the normal distribution to delivery times. I also analyze package weight data by calculating the mean and standard deviation, plotting a histogram, and overlaying the normal distribution to see how well the data fits.",
+          explanation: "This project fits the objective because I apply probability tools and distributions (such as the binomial and normal distributions) to practical scenarios like employee training completion and shipping weights. I compute probabilities, means, and standard deviations, create visualizations like histograms, and interpret what those results mean in terms of real-world likelihoods and trends, using the analysis to make informed inferences and projections from the data.",
+          tech: ["Python"],
           type: "Data Science",
           colab: "https://colab.research.google.com/drive/18AQQXaGnI75ZLu_yHKJfAQ63XxYVmzCo?usp=sharing"
         }
@@ -298,19 +298,19 @@ const Objectives: React.FC = () => {
       color: "bg-green-600",
       projects: [
         {
-          name: "CSC338 Assignment 2",
+          name: "Visualizing Distribution, Spread, and Shape in Python",
           description: "Created comprehensive visualizations of large datasets to communicate insights and patterns effectively.",
-          explanation: "This project emphasized creating clear, meaningful visualizations that help stakeholders understand complex data patterns and their implications for decision-making.",
-          tech: ["Python", "Matplotlib", "Seaborn", "Data Visualization"],
-          type: "Data Visualization",
+          explanation: "In this assignment, I write Python functions to analyze central tendency and spread in a dataset, calculating metrics like mean, median, mode, variance, standard deviation, and interquartile range. I also measure skewness and kurtosis to describe the shape of the distribution. Then I use visualizations (such as distribution plots and other summary graphics) to show how the data is centered, how wide it spreads, and whether it’s skewed, and I explain in markdown what those visuals say about the data.",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/11VAGgFTFtBy6jbK5pTHLA7TlMH6F_M7r?usp=sharing"
         },
         {
-          name: "CSC338 Final - Maricopa Daily Mobility",
+          name: "Maricopa Daily Mobility Data",
           description: "Developed interactive visualizations to display mobility patterns and trends across Maricopa County.",
           explanation: "Created visual representations of large-scale mobility data that clarified daily transportation patterns, making complex datasets accessible and understandable.",
-          tech: ["Python", "Data Visualization", "Geographic Data"],
-          type: "Data Analysis",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/1Ftx_WE4VEK-8isi_OpAWi8G9-Vd_G6D0?usp=sharing"
         }
       ]
@@ -325,16 +325,16 @@ const Objectives: React.FC = () => {
           name: "CSC338 Assignment 8 - Bank Marketing",
           description: "This project uses the bank marketing dataset to predict whether a client will subscribe to a term deposit. I load and clean the data, convert “yes”/“no” values to numbers, and build different feature sets for each model. I then train and test several classifiers, including KNN, Logistic Regression, and a Decision Tree, compare their accuracy and confusion matrices, and look at which features are most important for the predictions.",
           explanation: "This project fits the objective because I build and compare several machine learning models to answer a real decision-making question: which clients are likely to subscribe to a term deposit. I use statistical measures and metrics (accuracy, precision/recall, confusion matrices, feature importance) to evaluate KNN, Logistic Regression, and a Decision Tree, and I turn the raw bank data into clear predictions and insights about which factors matter most. This gives a bank practical guidance on who to target and what patterns exist in the data, showing that I can turn complex data and AI models into useful options and understanding for an organization.",
-          tech: ["Python", "Machine Learning", "Analytics"],
+          tech: ["Python"],
           type: "Data Science",
           colab: "https://colab.research.google.com/drive/1iOsIHtUwDIvljSKOJOKckLnV-lXt8yzn?usp=sharing"
         },
         {
-          name: "CSC338 Assignment 3",
-          description: "Developed statistical and visual analysis solutions to provide organizational guidance based on data insights.",
-          explanation: "Created end-to-end analytical solutions that transform raw data into actionable recommendations, demonstrating the full data science pipeline from analysis to decision support.",
-          tech: ["Python", "Statistical Modeling", "Business Intelligence"],
-          type: "Applied Analytics",
+          name: "Real-World Probability Distributions and Decision Analysis",
+          description: "In this assignment, I work with different probability tools and distributions in realistic scenarios. I use the binomial distribution to find the probabilities of employees completing a training course, match everyday situations to the correct distribution type, and apply the normal distribution to delivery times. I also analyze package weight data by calculating the mean and standard deviation, plotting a histogram, and overlaying the normal distribution to see how well the data fits.",
+          explanation: "This assignment fits the objective because I use probability tools and distributions (binomial, Poisson, and normal) on realistic scenarios like employee training, customer arrivals, delivery times, and package weights. I calculate probabilities, means, and standard deviations, create visualizations such as a histogram with a normal curve, and explain what these results mean in context. This turns raw numbers into clear insights that an organization could use for planning and decision-making, providing both understanding and practical options based on the data.",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/18AQQXaGnI75ZLu_yHKJfAQ63XxYVmzCo?usp=sharing"
         }
       ]
@@ -346,18 +346,18 @@ const Objectives: React.FC = () => {
       color: "bg-green-600",
       projects: [
         {
-          name: "CSC338 Assignment 11",
-          description: "Implemented best practices for handling sensitive data, including privacy protection and ethical data usage protocols.",
-          explanation: "This assignment focused on understanding and applying ethical frameworks for data science, including proper handling of personal information, data anonymization, and privacy-preserving techniques.",
-          tech: ["Python", "Data Privacy", "Ethics"],
-          type: "Data Ethics",
+          name: "Content-Based Book Recommendation System",
+          description: "In this assignment, I build a simple book recommendation system using a small dataset of books with fields like title, author, genre, themes, and era. I load the data into a pandas DataFrame, combine the descriptive text fields into a single feature, vectorize that text, and use cosine similarity to find books that are most similar to a given title. A function then returns the top N recommended books based on those similarity scores.",
+          explanation: "This assignment fits the objective because the recommendation system is designed without collecting or storing any personal user data. Recommendations are generated purely from public book metadata (genre, themes, era) instead of tracking individual reading histories, identities, or sensitive attributes. This shows a privacy-first design that follows data minimization: the system delivers useful personalization while avoiding unnecessary or intrusive use of personal information.",
+          tech: ["Python"],
+          type: "Data Science",
           colab: "https://colab.research.google.com/drive/1TMfh-gveZtYYA4kSxn9AaASRcXOUKoRv?usp=sharing"
         },
         {
-          name: "CSC338 Assignment 7",
-          description: "Analyzed and implemented privacy-preserving techniques in data analysis workflows.",
-          explanation: "Demonstrated understanding of digital privacy principles by implementing data protection measures and ethical guidelines when working with personal information.",
-          tech: ["Python", "Privacy Protection"],
+          name: "Global Education and Adult Literacy Prediction",
+          description: "In this assignment, I use a world education dataset with country-level indicators like government spending on education, pupil-teacher ratios, school enrollment rates, primary completion rates, and adult literacy rates. I clean the data by filling missing numeric values, encode categorical variables, and build decision tree and random forest regression models to predict adult literacy and primary completion rates. I evaluate model performance, inspect feature importance, and compare global averages to U.S. values to interpret the results.",
+          explanation: "This assignment fits the objective because it relies on aggregated, country-level statistics instead of individual-level personal records. By working with de-identified, high-level data, the analysis avoids exposing or misusing any specific person’s information while still generating insights that could guide policy or funding decisions. The project shows an ethical approach to data use: focusing on patterns and trends at the population level, rather than profiling or targeting identifiable individuals.",
+          tech: ["Python"],
           type: "Data Science",
           colab: "https://colab.research.google.com/drive/1iEdIdlxYXUcHxpOpU4HrUBOIVRzrvmOn?usp=sharing"
         }
